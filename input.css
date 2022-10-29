@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("css/font-rf-rufo.css");
+
+
+@layer base {
+    html {
+        font-family: 'RF Rufo', sans-serif;
+    }
+}
+
+@layer components {
+    .container {
+        @apply max-w-[1195px];
+    }
+}

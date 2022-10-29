@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icons/icomoon.eot?mvmsts');
+  src:  url('../fonts/icons/icomoon.eot?mvmsts#iefix') format('embedded-opentype'),
+    url('../fonts/icons/icomoon.ttf?mvmsts') format('truetype'),
+    url('../fonts/icons/icomoon.woff?mvmsts') format('woff'),
+    url('../fonts/icons/icomoon.svg?mvmsts#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon_"]::before, 
+[class*=" icon_"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_wechat:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon_whatsapp:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon_telegram:before {
+  content: "\e900";
+}
+.icon_menuphone:before {
+  content: "\e901";
+}
+.icon_news:before {
+  content: "\e902";
+}
+.icon_aboutus:before {
+  content: "\e903";
+}
+.icon_catalog:before {
+  content: "\e904";
+}
+.icon_kartografi:before {
+  content: "\e905";
+}
+.icon_opriskivaniy:before {
+  content: "\e906";
+}
+.icon_spider:before {
+  content: "\e907";
+}
+.icon_home:before {
+  content: "\e91b";
+}
+.icon_shoppingcart:before {
+  content: "\e91c";
+}
+.icon_menu:before {
+  content: "\e91d";
+}
+.icon_tiktok:before {
+  content: "\e91e";
+}
+.icon_instagram:before {
+  content: "\e91f";
+}
+.icon_vk:before {
+  content: "\e920";
+}
+.icon_phone:before {
+  content: "\e921";
+}

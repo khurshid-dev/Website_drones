@@ -1,0 +1,16 @@
+{
+  "name": "new-website-drones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./input.css -o ./css/output.css --watch",
+    "build": "npx tailwindcss -i ./input.css -o ./css/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
