@@ -1,0 +1,11 @@
+/* Main section */
+.main-entomof {
+    background-image: url(../img/);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: -35px;
+    padding: 0px 0 170px;
+    z-index: 1;
+    position: relative;
+}
