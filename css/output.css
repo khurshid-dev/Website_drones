@@ -625,6 +625,10 @@ html {
   margin-top: 9rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .mr-6 {
   margin-right: 1.5rem;
 }
@@ -701,6 +705,14 @@ html {
   margin-bottom: 1rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -749,6 +761,14 @@ html {
   max-width: 670px;
 }
 
+.max-w-\[460px\] {
+  max-width: 460px;
+}
+
+.max-w-\[240px\] {
+  max-width: 240px;
+}
+
 .max-w-\[348px\] {
   max-width: 348px;
 }
@@ -761,12 +781,52 @@ html {
   max-width: 600px;
 }
 
+.max-w-\[480px\] {
+  max-width: 480px;
+}
+
+.max-w-\[700px\] {
+  max-width: 700px;
+}
+
+.max-w-\[720px\] {
+  max-width: 720px;
+}
+
+.max-w-\[730px\] {
+  max-width: 730px;
+}
+
+.max-w-\[740px\] {
+  max-width: 740px;
+}
+
+.max-w-\[750px\] {
+  max-width: 750px;
+}
+
+.basis-\[30\%\] {
+  flex-basis: 30%;
+}
+
 .basis-\[32\%\] {
   flex-basis: 32%;
 }
 
 .basis-\[31\%\] {
   flex-basis: 31%;
+}
+
+.basis-\[208px\] {
+  flex-basis: 208px;
+}
+
+.basis-\[33\%\] {
+  flex-basis: 33%;
+}
+
+.basis-\[35\%\] {
+  flex-basis: 35%;
 }
 
 .cursor-pointer {
@@ -815,14 +875,14 @@ html {
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
-.bg-bgflex {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 29 29 / var(--tw-bg-opacity));
-}
-
 .bg-bgfooter {
   --tw-bg-opacity: 1;
   background-color: rgb(21 21 21 / var(--tw-bg-opacity));
+}
+
+.bg-bgflex {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 29 29 / var(--tw-bg-opacity));
 }
 
 .p-0 {
@@ -879,6 +939,14 @@ html {
   padding-top: 7rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -889,14 +957,6 @@ html {
 
 .pb-7 {
   padding-bottom: 1.75rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
 }
 
 .text-left {
@@ -911,6 +971,11 @@ html {
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-5xl {
@@ -941,11 +1006,6 @@ html {
   font-size: 34px;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -957,6 +1017,10 @@ html {
 
 .font-light {
   font-weight: 300;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .leading-5 {
@@ -1138,6 +1202,11 @@ html {
     padding-right: 30px;
   }
 
+  .md\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
   .md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -1156,11 +1225,6 @@ html {
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-
-  .md\:px-7 {
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
   }
 
   .md\:pb-8 {
@@ -1238,6 +1302,30 @@ html {
     margin-top: 7rem;
   }
 
+  .sm\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .sm\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .sm\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .sm\:mr-3 {
+    margin-right: 0.75rem;
+  }
+
+  .sm\:mb-7 {
+    margin-bottom: 1.75rem;
+  }
+
+  .sm\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
   .sm\:mt-2 {
     margin-top: 0.5rem;
   }
@@ -1254,10 +1342,6 @@ html {
     margin-bottom: 30px;
   }
 
-  .sm\:mt-4 {
-    margin-top: 1rem;
-  }
-
   .sm\:mt-0 {
     margin-top: 0px;
   }
@@ -1268,30 +1352,6 @@ html {
 
   .sm\:mb-4 {
     margin-bottom: 1rem;
-  }
-
-  .sm\:mb-7 {
-    margin-bottom: 1.75rem;
-  }
-
-  .sm\:mr-0 {
-    margin-right: 0px;
-  }
-
-  .sm\:mb-6 {
-    margin-bottom: 1.5rem;
-  }
-
-  .sm\:mb-12 {
-    margin-bottom: 3rem;
-  }
-
-  .sm\:ml-5 {
-    margin-left: 1.25rem;
-  }
-
-  .sm\:mr-3 {
-    margin-right: 0.75rem;
   }
 
   .sm\:block {
@@ -1356,11 +1416,6 @@ html {
     padding-right: 2.75rem;
   }
 
-  .sm\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1397,6 +1452,11 @@ html {
     line-height: 1.75rem;
   }
 
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1407,22 +1467,17 @@ html {
     line-height: 2rem;
   }
 
-  .sm\:text-\[22px\] {
-    font-size: 22px;
-  }
-
   .sm\:text-\[26px\] {
     font-size: 26px;
+  }
+
+  .sm\:text-\[22px\] {
+    font-size: 22px;
   }
 
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .sm\:leading-4 {

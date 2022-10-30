@@ -1,11 +1,20 @@
 /* Main section */
 .main-entomof {
-    background-image: url(../img/);
+    background-image: url(../img/entomofagi/main-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     top: -35px;
-    padding: 0px 0 170px;
+    padding: 22px 0 45px;
     z-index: 1;
     position: relative;
+}
+
+.ento-item {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.ento-item:hover {
+    transform: scale(0.9);
 }
