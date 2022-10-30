@@ -673,25 +673,34 @@ body {
 
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 360px) {
 
     .img-logo img {
-        width: 50px;
+        width: 35px;
+        padding-top: 5px;
     }
 
     .icons .icon::before {
-        font-size: 12px;
-        margin-left: 21px;
+        font-size: 10px;
+        margin-left: 7px;
+        border: 1px solid #01B601;
+        padding: 4px;
     }
 
     .h-ends .icon::before {
-        font-size: 20px;
-        margin-left: 10px;
+        font-size: 13px;
+        margin-left: 1px;
+        border: 1px solid white;
+        padding: 2px;
     }
 
     .h-ends.active button.icon {
-        height: 43px;
-        margin-left: 34px;
+        background-image: url(../img/main/media360/m-close.png);
+        width: 20px;
+        height: 19px;
+        margin-left: 13px;
+        background-repeat: no-repeat;
+        margin-top: 1px;
     }
 
     .overlay-m-icons::before {
@@ -700,12 +709,13 @@ body {
 
     .main {
         background-image: inherit;
+        padding: 2px 0px 7px;
     }
 
     .main-dron img {
-        right: 22px;
+        right: 20px;
         top: 5px;
-        width: 59px;
+        width: 45px;
     }
 
     .main-dron svg {
@@ -715,22 +725,38 @@ body {
         width: 359px;
     }
 
+    .main-item {
+        padding: 10px;
+    }
+
+    .primary-title {
+        margin: 0;
+    }
+
     .primary-title h1 {
-        font-size: 36px;
-        line-height: 64px;
+        font-size: 32px;
+        line-height: 50px;
         letter-spacing: 1px;
         margin-bottom: 0;
     }
 
     .primary-title h4 {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 22px;
-        top: 23px;
+        top: 17px;
         left: 3px;
+    }
+
+    img.adv-img {
+        width: 33px;
     }
 
     .swiper.advantageSwiper {
         display: block;
+        width: 265px;
+        height: 257px;
+        margin-left: -20px;
+        margin-top: 8px;
     }
 
     .swiper {
@@ -752,7 +778,7 @@ body {
 
 
     .service {
-        background-image: url(../img/main/media480/uslugi-bg.png);
+        background-image: url(../img/main/media360/uslugi-bg.png);
         padding: 220px 31px 42px;
         margin-bottom: 20px;
         text-align: center;
@@ -769,7 +795,7 @@ body {
     }
 
     .country-image {
-        background-image: url(../img/main/media480/map-group.png);
+        background-image: url(../img/main/media360/map-group.png);
         width: 367px;
         height: 336px;
         background-repeat: no-repeat;
@@ -793,13 +819,13 @@ body {
 
     .swiper-pagination-bullet {
         background: #fff8f8;
-        width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 9.5px));
-        height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 9.5px));
+        width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 7.5px));
+        height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 7.5px));
     }
 
     .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
     .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-        margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 8px);
+        margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
     }
 
 
