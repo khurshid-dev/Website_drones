@@ -623,7 +623,6 @@ body {
         width: 467px;
         height: 696px;
         margin-left: auto;
-        display: none;
         margin: 0 auto;
     }
 
@@ -680,6 +679,13 @@ body {
 
 @media only screen and (max-width: 360px) {
 
+
+    .navbar-menu {
+        position: absolute;
+        display: none;
+        top: 32px;
+    }
+
     .img-logo img {
         width: 35px;
         padding-top: 5px;
@@ -709,7 +715,21 @@ body {
     }
 
     .overlay-m-icons::before {
-        font-size: 16px;
+        font-size: 13px;
+        left: -5px;
+        padding: 4px;
+        border: 1px solid white;
+    }
+
+    .social::before {
+        font-size: 22px;
+    }
+
+    .social.icon_telegram::before {
+        border: 2px solid white;
+        position: relative;
+        font-size: 20px;
+        top: 2px;
     }
 
     .main {
@@ -827,7 +847,7 @@ body {
         margin-left: 5px;
         margin-top: 30px;
         width: 281px;
-        height: 586px;
+        height: 568px;
         padding: 4px 9px;
     }
 
