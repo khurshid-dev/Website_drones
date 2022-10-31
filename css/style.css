@@ -620,6 +620,11 @@ body {
 
     .swiper {
         display: block;
+        width: 467px;
+        height: 696px;
+        margin-left: auto;
+        display: none;
+        margin: 0 auto;
     }
 
     .service {
@@ -627,7 +632,7 @@ body {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        padding: 72px 30px 86px;
+        padding: 0;
         margin-bottom: 20px;
     }
 
@@ -755,13 +760,15 @@ body {
         display: block;
         width: 265px;
         height: 257px;
-        margin-left: -20px;
+        margin-left: 0px;
         margin-top: 8px;
     }
 
     .swiper {
-        width: 400px;
-        height: 560px;
+        width: 301px;
+        height: 445px;
+        margin-left: 0px;
+        margin-top: 17px;
     }
 
     .swiper-horizontal>.swiper-pagination-bullets,
@@ -779,13 +786,18 @@ body {
 
     .service {
         background-image: url(../img/main/media360/uslugi-bg.png);
-        padding: 220px 31px 42px;
         margin-bottom: 20px;
         text-align: center;
+        padding: 0;
     }
 
     .more svg {
         width: 32px;
+    }
+
+    .about-text {
+        padding: 0;
+        margin-top: 22px;
     }
 
     .about__line {
@@ -802,15 +814,21 @@ body {
         background-size: cover;
         position: absolute;
         top: 0px;
-        left: 29px;
+        left: 0;
+    }
+
+    .img-new {
+        width: 286px;
+        height: 245px;
     }
 
     .swiper.mySwiperTwo {
         display: block;
-        margin-left: 39px;
-        margin-top: 33px;
-        width: 301px;
-        height: 545px;
+        margin-left: 5px;
+        margin-top: 30px;
+        width: 281px;
+        height: 586px;
+        padding: 4px 9px;
     }
 
     .swiper.mySwiperTwo .swiper-slide {
@@ -828,8 +846,8 @@ body {
         margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
     }
 
-
     .icons .icon.footer::before {
-        font-size: 20px;
+        font-size: 16px;
+        padding: 6px;
     }
 }
