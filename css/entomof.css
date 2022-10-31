@@ -12,11 +12,11 @@
 
 .ento-item {
     cursor: pointer;
-    transition: 0.5s;
 }
 
 .ento-item:hover {
-    transform: scale(0.9);
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 
