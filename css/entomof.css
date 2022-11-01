@@ -52,6 +52,99 @@
 
 
 
+
+/* Ento Advantage  */
+
+.ento-advantage-bg {
+    position: relative;
+}
+
+.ento-advantage-bg::before {
+    background-image: url(../img/entomofagi/adv-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 523px;
+    width: 103px;
+    position: absolute;
+    display: block;
+    content: '';
+    z-index: -1;
+    top: 211px;
+    left: -80px;
+}
+
+
+
+
+/* Problems section */
+
+.problem-info {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 42px;
+}
+
+.problem-item {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.problem-item:hover {
+    transform: translate(20px);
+    text-shadow: 0 0 1px #fff,
+        0 0 3px #fff,
+        0 0 5px #fff;
+    transition: 0.5s;
+}
+
+.problems-bg {
+    position: relative;
+}
+
+.problems-bg::after {
+    background-image: url(../img/entomofagi/number-bg-2.png);
+    background-repeat: no-repeat;
+    width: 715px;
+    height: 584px;
+    display: block;
+    content: '';
+    position: absolute;
+    top: -277px;
+    right: 97px;
+}
+
+.problems-line {
+    position: relative;
+}
+
+.problems-line svg {
+    position: absolute;
+    bottom: 2px;
+    left: -425px;
+}
+
+svg .svg-elem-1 {
+    stroke-dashoffset: 1013.2308349609375px;
+    stroke-dasharray: 1013.2308349609375px;
+    -webkit-transition: stroke-dashoffset 1.8s ease-out 0s;
+    transition: stroke-dashoffset 1.8s ease-out 0s;
+}
+
+svg.active .svg-elem-1 {
+    stroke-dashoffset: 2026.461669921875px;
+}
+
+
+
+
+
+
+
+
 /* All Media Query */
 
 @media only screen and (max-width: 768px) {
@@ -64,6 +157,18 @@
     .entomof-text {
         padding: 0 30px;
 
+    }
+
+    .ento-advantage-bg::before {
+        display: none;
+    }
+
+    .problem-info {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 30px;
+        margin-left: 18px;
+        margin-bottom: 27px;
     }
 }
 
@@ -86,5 +191,30 @@
 
     .info.open-active .entomof-text {
         height: 766px;
+    }
+
+    .problem-info {
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 1px;
+        text-align: left;
+        margin-left: 12px;
+        margin-bottom: 27px;
+    }
+
+    .primary-title.problems h1 {
+        font-size: 36px;
+        line-height: 43px;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+    }
+
+    .primary-title.problems h4 {
+        font-size: 21px;
+        line-height: 44px;
+        top: 6px;
+        left: 3px;
+        letter-spacing: 0.25px
     }
 }
