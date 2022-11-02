@@ -115,6 +115,7 @@
     position: absolute;
     top: -277px;
     right: 97px;
+    z-index: -1;
 }
 
 .problems-line {
@@ -127,16 +128,67 @@
     left: -425px;
 }
 
+
 svg .svg-elem-1 {
     stroke-dashoffset: 1013.2308349609375px;
     stroke-dasharray: 1013.2308349609375px;
-    -webkit-transition: stroke-dashoffset 1.8s ease-out 0s;
-    transition: stroke-dashoffset 1.8s ease-out 0s;
+    -webkit-transition: stroke-dashoffset 5.5s ease-out 2s;
+    transition: stroke-dashoffset 5.5s ease-out 2s;
 }
 
 svg.active .svg-elem-1 {
     stroke-dashoffset: 2026.461669921875px;
 }
+
+.problems-drone-bg {
+    position: relative;
+}
+
+.problems-drone-bg svg {
+    position: absolute;
+    bottom: 29px;
+    left: 434px;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+/* Trixogram section */
+
+.trixogram-item {
+    background: #1E1D1D;
+    -webkit-box-shadow: 10px 9px 6px 0px rgba(11, 11, 11, 0.2);
+    -moz-box-shadow: 10px 9px 6px 0px rgba(11, 11, 11, 0.2);
+    box-shadow: 10px 9px 6px 0px rgba(11, 11, 11, 0.2);
+    padding: 70px 75px 30px 225px;
+    margin-left: auto;
+}
+
+.trixo-img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 72px;
+}
+
+.trixo-img img {
+    width: 438px;
+    height: 404px;
+}
+
+
+
 
 
 
@@ -169,6 +221,20 @@ svg.active .svg-elem-1 {
         line-height: 30px;
         margin-left: 18px;
         margin-bottom: 27px;
+    }
+
+    .trixogram-item {
+        padding: 270px 74px 30px 74px;
+        margin-right: auto;
+    }
+
+    .trixo-img {
+        width: 100%;
+        position: absolute;
+        bottom: 476px;
+        top: inherit;
+        display: flex;
+        justify-content: center;
     }
 }
 
