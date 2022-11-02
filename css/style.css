@@ -252,7 +252,7 @@ body {
     transform: scale(0.9);
 }
 
-.dron-image:hover {
+.dron-image {
     transform: rotate(0deg);
     animation: animate 4s linear infinite;
 }
@@ -626,6 +626,7 @@ body {
         margin: 0 auto;
     }
 
+
     .service {
         background-image: url(../img/main/media768/uslugi-bg.png);
         background-repeat: no-repeat;
@@ -671,6 +672,20 @@ body {
     .swiper.mySwiperTwo {
         display: block;
         margin-left: -80px;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .swiper.advantageSwiper {
+        display: block;
+        height: 306px;
+        margin-top: -27px;
     }
 }
 

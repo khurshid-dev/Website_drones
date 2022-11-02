@@ -6,6 +6,7 @@ module.exports = {
         'xl': {'max': '1250px'}, 
         'lg': {'max': '992px'},
         'md': {'max': '768px'},
+        'ss': {'max': '500px'},
         'sm': {'max': '360px'},
     },
 

@@ -187,7 +187,95 @@ svg.active .svg-elem-1 {
     height: 404px;
 }
 
+.trixo-bg {
+    position: relative;
+}
 
+.trixo-bg::before {
+    background-image: url(../img/entomofagi/adv-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 523px;
+    width: 103px;
+    position: absolute;
+    display: block;
+    content: '';
+    z-index: -1;
+    top: 70px;
+    left: -103px;
+}
+
+
+
+
+
+
+
+/* Zlato Section  */
+
+
+.zlato-item {
+    background: #1E1D1D;
+    -webkit-box-shadow: 10px 9px 6px 0px rgba(11, 11, 11, 0.2);
+    -moz-box-shadow: 10px 9px 6px 0px rgba(11, 11, 11, 0.2);
+    box-shadow: 10px 9px 6px 0px rgba(11, 11, 11, 0.2);
+    padding: 70px 225px 75px 30px;
+    margin-right: auto;
+}
+
+.zlato-img {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    right: 65px;
+    top: 72px;
+}
+
+.zlato-img img {
+    width: 438px;
+    height: 404px;
+}
+
+.zlato-bg {
+    position: relative;
+}
+
+.zlato-bg::before {
+    background-image: url(../img/entomofagi/zlato-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 523px;
+    width: 103px;
+    position: absolute;
+    display: block;
+    content: '';
+    z-index: -1;
+    top: 70px;
+    right: -65px;
+}
+
+
+
+
+/* Gabrobrakon section */
+.gabro-bg {
+    position: relative;
+}
+
+.gabro-bg::before {
+    background-image: url(../img/entomofagi/gabro-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 523px;
+    width: 103px;
+    position: absolute;
+    display: block;
+    content: '';
+    z-index: -1;
+    top: 70px;
+    left: -103px;
+}
 
 
 
@@ -236,8 +324,93 @@ svg.active .svg-elem-1 {
         display: flex;
         justify-content: center;
     }
+
+    .trixo-bg::before {
+        display: none;
+    }
+
+    .zlato-bg::before {
+        display: none;
+    }
+
+    .zlato-item {
+        padding: 270px 74px 30px 74px;
+        margin-right: auto;
+    }
+
+    .zlato-img {
+        width: 100%;
+        position: absolute;
+        bottom: 476px;
+        right: 0;
+        top: inherit;
+        display: flex;
+        justify-content: center;
+    }
+
+    .gabro-bg::before {
+        display: none;
+    }
 }
 
+
+@media only screen and (max-width: 600px) {
+    .trixo-img {
+        bottom: 594px;
+    }
+
+    .zlato-img {
+        bottom: 594px;
+    }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .trixogram-box {
+        margin-top: 128px;
+    }
+
+    .trixo-img {
+        bottom: 551px;
+    }
+
+    .trixo-img img {
+        width: 320px;
+        height: 300px;
+    }
+
+    .trixogram-item {
+        padding: 230px 44px 30px 44px;
+    }
+
+    .zlato-box {
+        margin-top: 128px;
+    }
+
+    .zlato-img {
+        bottom: 551px;
+    }
+
+    .zlato-img img {
+        width: 320px;
+        height: 300px;
+    }
+
+    .zlato-item {
+        padding: 230px 44px 30px 44px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .trixo-img {
+        bottom: 629px;
+    }
+
+    .zlato-img {
+        bottom: 629px;
+    }
+}
 
 
 
@@ -282,5 +455,33 @@ svg.active .svg-elem-1 {
         top: 6px;
         left: 3px;
         letter-spacing: 0.25px
+    }
+
+    .trixogram-item {
+        padding: 200px 14px 20px 14px;
+        margin-right: auto;
+    }
+
+    .trixo-img {
+        bottom: 592px;
+    }
+
+    .trixo-img img {
+        width: 300px;
+        height: 291px;
+    }
+
+    .zlato-item {
+        padding: 200px 14px 20px 14px;
+        margin-right: auto;
+    }
+
+    .zlato-img {
+        bottom: 592px;
+    }
+
+    .zlato-img img {
+        width: 300px;
+        height: 291px;
     }
 }
