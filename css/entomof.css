@@ -425,6 +425,36 @@ svg.active .svg-elem-1 {
 
 
 
+@media only screen and (max-width: 500px) {
+    .supp-item {
+        z-index: 2;
+        margin-top: 40px;
+    }
+
+    .icons .icon::before {
+        margin-left: 12px;
+    }
+
+    .h-ends .icon::before {
+        margin-left: 0px;
+    }
+
+    .main-entomof {
+        background-image: inherit;
+    }
+
+    .ento-item {
+        max-width: 55%;
+        flex-basis: 50%;
+    }
+
+    .h-ends.active button.icon {
+        height: 42px;
+        margin-left: 17px;
+    }
+}
+
+
 @media only screen and (max-width: 480px) {
     .trixogram-box {
         margin-top: 128px;
