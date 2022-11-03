@@ -23,6 +23,7 @@ module.exports = {
             bgflex: '#1e1d1d',
             bgfooter: '#151515',
             textflex: '#ffffff81',
+            borderform: '#4B4A4A',
         },
     },
     },

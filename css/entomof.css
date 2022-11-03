@@ -166,11 +166,18 @@ svg.active .svg-elem-1 {
 
 /* Trixogram section */
 
+.trixogram-box:hover .trixogram-item {
+    -webkit-box-shadow: 19px 18px 33px -24px rgba(1, 2, 2, 0.39);
+    -moz-box-shadow: 19px 18px 33px -24px rgba(1, 2, 2, 0.39);
+    box-shadow: 19px 18px 33px -24px rgba(1, 2, 2, 0.39);
+    transition: 0.4s;
+}
+
 .trixogram-item {
     background: #1E1D1D;
-    -webkit-box-shadow: 10px 9px 6px 0px rgba(11, 11, 11, 0.2);
-    -moz-box-shadow: 10px 9px 6px 0px rgba(11, 11, 11, 0.2);
-    box-shadow: 10px 9px 6px 0px rgba(11, 11, 11, 0.2);
+    -webkit-box-shadow: 4px 4px 39px -26px rgba(1, 2, 2, 0.2);
+    -moz-box-shadow: 4px 4px 39px -26px rgba(1, 2, 2, 0.2);
+    box-shadow: 4px 4px 39px -26px rgba(1, 2, 2, 0.2);
     padding: 70px 75px 30px 225px;
     margin-left: auto;
 }
@@ -204,7 +211,6 @@ svg.active .svg-elem-1 {
     top: 70px;
     left: -103px;
 }
-
 
 
 
@@ -282,6 +288,47 @@ svg.active .svg-elem-1 {
 
 
 
+/* Support Section */
+
+.support-box {
+    padding: 0px 30px 50px 28px;
+    transition: 0.4s;
+    z-index: 2;
+}
+
+.support-box:hover {
+    background: black;
+    border-radius: 14px;
+}
+
+.supp-item {
+    z-index: 2;
+}
+
+.supp-bg {
+    position: relative;
+}
+
+.supp-bg::before {
+    background-image: url(../img/entomofagi/support_bg.png);
+    background-repeat: no-repeat;
+    width: 715px;
+    height: 558px;
+    position: absolute;
+    display: block;
+    content: '';
+    right: 154px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -350,6 +397,18 @@ svg.active .svg-elem-1 {
 
     .gabro-bg::before {
         display: none;
+    }
+
+    .supp-bg::before {
+        display: none;
+    }
+
+    .support-box {
+        padding: 30px 30px 50px 28px;
+    }
+
+    .primary-title.support {
+        margin: 0;
     }
 }
 
