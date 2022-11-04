@@ -503,7 +503,7 @@ svg.active .svg-elem-1 {
 
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
     .main-entomof {
         background-image: inherit;
         padding: 2px 0 6px;

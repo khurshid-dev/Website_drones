@@ -682,17 +682,68 @@ body {
 
 
 @media only screen and (max-width: 500px) {
+
+    .main {
+        padding: 2px 0px 7px;
+    }
+
+    .main-dron img {
+        right: 196px;
+    }
+
+    .main-dron svg {
+        right: 279px;
+        top: -40px;
+        height: 168px;
+        width: 259px;
+    }
+
     .swiper.advantageSwiper {
         display: block;
-        height: 306px;
+        height: 366px;
         margin-top: -27px;
     }
+
+    .swiper.mySwiperTwo {
+        margin-left: -109px;
+        margin-right: 0;
+    }
+
+    .icons .icon::before {
+        margin-left: 12px;
+    }
+
+    .h-ends .icon::before {
+        margin-left: 0px;
+    }
+
+
+    .h-ends.active button.icon {
+        height: 42px;
+        margin-left: 17px;
+    }
+
+    .primary-title {
+        margin: 0;
+    }
+
+    .country-image {
+        background-image: url(../img/main/media360/map-group.png);
+        width: 367px;
+        height: 336px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        left: 0;
+    }
+
 }
 
 
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 420px) {
 
 
     .navbar-menu {
