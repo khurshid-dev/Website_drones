@@ -491,19 +491,10 @@ svg.active .svg-elem-1 {
     }
 }
 
+
+
+
 @media only screen and (max-width: 420px) {
-    .trixo-img {
-        bottom: 629px;
-    }
-
-    .zlato-img {
-        bottom: 629px;
-    }
-}
-
-
-
-@media only screen and (max-width: 400px) {
     .main-entomof {
         background-image: inherit;
         padding: 2px 0 6px;
@@ -552,7 +543,7 @@ svg.active .svg-elem-1 {
     }
 
     .trixo-img {
-        bottom: 592px;
+        bottom: 514px;
     }
 
     .trixo-img img {
@@ -572,5 +563,15 @@ svg.active .svg-elem-1 {
     .zlato-img img {
         width: 300px;
         height: 291px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .trixo-img {
+        bottom: 531px;
+    }
+
+    .zlato-img {
+        bottom: 532px;
     }
 }
