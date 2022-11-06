@@ -38,7 +38,7 @@
     bottom: 0;
     width: 100%;
     height: 110px;
-    background: linear-gradient(0deg, #181818 0%, rgba(24, 24, 24, 0.63) 100%);
+    background: linear-gradient(0deg, #141414 0%, rgb(18 18 18 / 63%) 100%);
 }
 
 .info.open-active .entomof-text {

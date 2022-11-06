@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: #181818;
+    background-color: #141414;
     color: white;
     width: 100%;
     max-width: 100%;
@@ -43,8 +43,6 @@ body {
     top: 60px;
     left: 10px;
 }
-
-
 
 
 
@@ -281,6 +279,39 @@ body {
     background-position: top right;
 }
 
+.adv-style {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    border-radius: 50%;
+    transition: width 0.6s ease-in-out, height 0.6s ease-in-out;
+    height: 0;
+    width: 0;
+    transform: translate(-50%, -50%);
+    background: #000000;
+    z-index: 1;
+}
+
+
+.advantage-item:hover {
+    -webkit-box-shadow: 28px 27px 8px -16px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 28px 27px 8px -16px rgba(0, 0, 0, 0.2);
+    box-shadow: 28px 27px 8px -16px rgba(0, 0, 0, 0.2);
+}
+
+.advantage-item:hover .content div h5,
+.advantage-item:hover .content p {
+    color: rgb(255, 255, 255);
+    transition: all 0.6s ease-in-out;
+}
+
+.advantage-item:hover .adv-style {
+    height: 600px;
+    width: 600px;
+}
 
 
 
@@ -293,7 +324,53 @@ body {
     background-position: bottom right;
 }
 
+.p-items {
+    position: relative;
+    width: 350px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
 
+.p-items::before {
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 160%;
+    background: linear-gradient(#ffffff, #00d100);
+    animation: box 4s linear infinite;
+    display: none;
+}
+
+.p-items:hover {
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+
+.p-items:hover::before {
+    display: block;
+}
+
+.p-items:hover .p-item {
+    background-color: #000;
+}
+
+.p-item {
+    z-index: 10;
+}
+
+@keyframes box {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 
 .swiper {
@@ -423,7 +500,7 @@ body {
     bottom: 0;
     width: 100%;
     height: 110px;
-    background: linear-gradient(0deg, #181818 0%, rgba(24, 24, 24, 0.63) 100%);
+    background: linear-gradient(0deg, #141414 0%, rgb(18 18 18 / 63%) 100%);
 }
 
 .about__line {
@@ -495,7 +572,16 @@ body {
     left: 527px;
 }
 
+.country-item ol li {
+    transition: 0.5s;
+    cursor: pointer;
+}
 
+.country-item ol li:hover {
+    transform: translate(25px);
+    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff;
+    transition: 0.5s;
+}
 
 
 
