@@ -300,6 +300,8 @@ body {
     -webkit-box-shadow: 28px 27px 8px -16px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 28px 27px 8px -16px rgba(0, 0, 0, 0.2);
     box-shadow: 28px 27px 8px -16px rgba(0, 0, 0, 0.2);
+    transform: scale(0.89);
+    transition: 0.4s;
 }
 
 .advantage-item:hover .content div h5,
@@ -331,8 +333,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #1e1d1d;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .p-items::before {
@@ -340,7 +343,7 @@ body {
     position: absolute;
     width: 170px;
     height: 160%;
-    background: linear-gradient(#ffffff, #00d100);
+    background: linear-gradient(#12a0ff, #00d100);
     animation: box 4s linear infinite;
     display: none;
 }
@@ -348,6 +351,7 @@ body {
 .p-items:hover {
     transform: scale(1.1);
     transition: all 0.4s;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .p-items:hover::before {
@@ -582,6 +586,16 @@ body {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff;
     transition: 0.5s;
 }
+
+
+
+
+
+/*Client Section */
+.client-img:hover {
+    transform: scale(1.12);
+}
+
 
 
 
