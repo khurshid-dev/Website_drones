@@ -29,15 +29,16 @@
 }
 
 .post-info {
-    padding: 0px 18px 0;
+    padding: 0px 18px 0 42px;
 }
 
-p {
+.post-item p {
     font-size: 22px;
     line-height: 28px;
+    color: rgb(155, 155, 155);
 }
 
-p b,
+.post-item p b,
 b {
     font-size: 24px;
 }
@@ -46,13 +47,16 @@ b {
     position: relative;
     width: 465px;
     height: 395px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     overflow: hidden;
 }
-
+.post-img:nth-child(1) {
+    margin-top: 25px;
+}
 .post-img::before {
     content: '';
     position: absolute;
@@ -77,4 +81,5 @@ b {
     height: 390px;
     position: relative;
     z-index: 10;
+    object-fit: cover;
 }

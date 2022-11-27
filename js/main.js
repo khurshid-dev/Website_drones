@@ -53,3 +53,6 @@ var swiper = new Swiper(".advantageSwiper", {
         clickable: true,
     },
 });
+
+
+AOS.init();
