@@ -6,7 +6,15 @@ body {
 }
 
 .news-box:hover {
-    transform: scale(1.05);
+    transform: scale(0.95);
+    border-radius: 20px;
+    -webkit-box-shadow: -5px -5px 16px -5px rgba(73, 73, 73, 0.6);
+    -moz-box-shadow: -5px -5px 16px -5px rgba(73, 73, 73, 0.6);
+    box-shadow: -5px -5px 16px -5px rgba(73, 73, 73, 0.6);
+}
+
+.news-box:hover .item-img {
+    border-radius: 20px;
 }
 
 .news-box:hover .box-item .titles a {
@@ -39,7 +47,7 @@ body {
     position: absolute;
     width: 175px;
     height: 200%;
-    background: linear-gradient(#00ccff, #d400d4);
+    background: linear-gradient(#ff00f2, #09ff00);
     animation: box 4s linear infinite;
     display: none;
 }
@@ -60,3 +68,119 @@ body {
     position: relative;
     z-index: 10;
 }
+
+
+
+.news-indexs {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-index {
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0 18px;
+}
+
+.news-index.active {
+    color: #09ff00;
+    padding: 3px 13px;
+    border-radius: 50%;
+    border: 1px solid #09ff00;
+}
+
+.news-index:hover {
+    color: #09ff00;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 990px) {
+    .news-box {
+        display: flex;
+        justify-content: start;
+        padding: 30px 20px 30px 20px;
+    }
+
+    .item-img img {
+        max-width: 330px;
+        height: 225px;
+    }
+
+    .item-img {
+        width: 333px;
+        height: 227px;
+    }
+
+    .box-item .titles {
+        margin-bottom: 16px;
+    }
+
+    .box-item .titles a {
+        font-size: 20px;
+    }
+
+    .box-item .titles p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .news-box {
+        display: flex;
+        margin: 24px auto;
+        max-width: min-content;
+        flex-wrap: wrap;
+        padding: 30px 25px 22px 25px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .box-item .titles a {
+        font-size: 18px;
+    }
+
+    .box-item .titles p {
+        font-size: 16px;
+    }
+
+    .news-indexs {
+        margin-top: 30px;
+    }
+
+    .news-index {
+        font-size: 16px;
+        padding: 0 17px;
+    }
+}
+
+@media only screen and (max-width: 420px) {}
