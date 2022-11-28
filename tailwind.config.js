@@ -21,7 +21,7 @@ module.exports = {
             bgtext: '#FFFFFF33',
             bgcolor: '#181818',
             bgflex: '#1e1d1d',
-            bgfooter: '#151515',
+            bgfooter: '#0a0a0a',
             textflex: '#ffffff81',
             borderform: '#4B4A4A',
         },

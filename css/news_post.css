@@ -18,18 +18,16 @@
     padding: 50px 0;
 }
 
-.post-item {
-    display: flex;
-}
+.post-item {}
 
-.post-item:nth-child(2) {
+/* .post-item:nth-child(2) {
     display: inherit;
     margin-bottom: 50px;
     padding: 0 18px;
-}
+} */
 
 .post-info {
-    padding: 0px 18px 0 42px;
+    padding: 0px 18px 0 0px;
 }
 
 .post-item p {
@@ -43,6 +41,16 @@ b {
     font-size: 24px;
 }
 
+.post-img-box.one {
+    float: left;
+    margin: 7px 30px 32px 0;
+}
+
+.post-img-box.two {
+    float: right;
+    margin: 20px 0px 30px 20px;
+}
+
 .post-img {
     position: relative;
     width: 465px;
@@ -54,9 +62,8 @@ b {
     background-color: rgba(0, 0, 0, 0.5);
     overflow: hidden;
 }
-.post-img:nth-child(1) {
-    margin-top: 25px;
-}
+
+
 .post-img::before {
     content: '';
     position: absolute;
@@ -77,9 +84,86 @@ b {
 }
 
 .post-img img {
-    max-width: 460px;
+    width: 460px;
     height: 390px;
     position: relative;
     z-index: 10;
     object-fit: cover;
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .post-item p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .post-img img {
+        width: 400px;
+        height: 330px;
+    }
+
+    .post-img {
+        width: 395px;
+        height: 331px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .post-box {
+        padding: 50px 0 0;
+    }
+
+    .post-title {
+        font-size: 36px;
+        line-height: 45px;
+        margin: 0;
+    }
+
+    .post-img-box.one {
+        float: left;
+        margin: 7px 20px 20px 0;
+    }
+
+    .post-img-box.two {
+        float: right;
+        margin: 15px 0px 15px 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .post-sections-title {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    .post-title {
+        font-size: 32px;
+        line-height: 34px;
+        margin: 0;
+    }
+
+    .post-img-box.one {
+        float: left;
+        margin: 7px 10px 20px 0;
+    }
+
+    .post-img-box.two {
+        float: right;
+        margin: 10px 0px 10px 10px;
+    }
+
+    .post-img {
+        width: 342px;
+        height: 273px;
+    }
+
+    .post-img img {
+        width: 340px;
+        height: 270px;
+    }
+}
+
+@media only screen and (max-width: 500px) {}
+
+@media only screen and (max-width: 420px) {}
