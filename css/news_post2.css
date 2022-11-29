@@ -169,6 +169,11 @@ b {
         margin: 7px auto 20px;
     }
 
+    .post-img-box.two {
+        float: initial;
+        margin: 7px auto 20px;
+    }
+
     .post-img {
         margin: 0 auto;
     }
