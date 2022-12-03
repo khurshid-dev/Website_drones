@@ -4,12 +4,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    top: -35px;
-    padding: 22px 0 45px;
+    top: -10px;
+    padding: 243px 0 100px;
     z-index: 1;
     position: relative;
 }
 
+.main-info {
+    position: relative;
+    bottom: 80px;
+}
 
 /* About section */
 
