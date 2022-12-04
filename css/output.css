@@ -998,6 +998,11 @@ html {
   background-color: rgb(2 229 2 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-none {
   background-image: none;
 }
@@ -1787,6 +1792,10 @@ html {
   .ss\:leading-\[27px\] {
     line-height: 27px;
   }
+
+  .ss\:leading-6 {
+    line-height: 1.5rem;
+  }
 }
 
 @media (max-width: 420px) {
@@ -1990,6 +1999,14 @@ html {
     padding-top: 0px;
   }
 
+  .sm\:pb-7 {
+    padding-bottom: 1.75rem;
+  }
+
+  .sm\:pt-7 {
+    padding-top: 1.75rem;
+  }
+
   .sm\:text-\[15px\] {
     font-size: 15px;
   }
@@ -2057,5 +2074,9 @@ html {
 
   .sm\:leading-\[27px\] {
     line-height: 27px;
+  }
+
+  .sm\:leading-\[18px\] {
+    line-height: 18px;
   }
 }

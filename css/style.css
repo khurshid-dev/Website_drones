@@ -824,7 +824,7 @@ body {
     }
 
     .primary-title {
-        margin: 0;
+        margin: 20px 0 42px;
     }
 
     .country-image {
@@ -836,6 +836,10 @@ body {
         position: absolute;
         top: 0px;
         left: 0;
+    }
+
+    .supp-btn {
+        margin-top: 30px;
     }
 
 }
@@ -920,21 +924,18 @@ body {
         padding: 10px;
     }
 
-    .primary-title {
-        margin: 0;
-    }
 
     .primary-title h1 {
-        font-size: 32px;
-        line-height: 50px;
+        font-size: 40px;
+        line-height: 34px;
         letter-spacing: 1px;
         margin-bottom: 0;
     }
 
     .primary-title h4 {
-        font-size: 20px;
-        line-height: 22px;
-        top: 17px;
+        font-size: 23px;
+        line-height: 33px;
+        top: 5px;
         left: 3px;
     }
 
