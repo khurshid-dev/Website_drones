@@ -746,10 +746,6 @@ html {
   margin-bottom: 2.75rem;
 }
 
-.mb-9 {
-  margin-bottom: 2.25rem;
-}
-
 .mr-\[14px\] {
   margin-right: 14px;
 }
@@ -1124,16 +1120,8 @@ html {
   padding-bottom: 3.5rem;
 }
 
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
 .pb-\[77px\] {
   padding-bottom: 77px;
-}
-
-.pb-\[92px\] {
-  padding-bottom: 92px;
 }
 
 .text-left {
@@ -1245,10 +1233,6 @@ html {
   line-height: 31px;
 }
 
-.leading-\[18px\] {
-  line-height: 18px;
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1331,6 +1315,10 @@ html {
 
   .lg\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:text-base {
