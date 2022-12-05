@@ -993,14 +993,14 @@ html {
   background-color: rgb(10 10 10 / var(--tw-bg-opacity));
 }
 
-.bg-lightgreen {
-  --tw-bg-opacity: 1;
-  background-color: rgb(2 229 2 / var(--tw-bg-opacity));
-}
-
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-lightgreen {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 229 2 / var(--tw-bg-opacity));
 }
 
 .bg-none {
@@ -1054,6 +1054,11 @@ html {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-6 {

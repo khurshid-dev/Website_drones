@@ -92,6 +92,12 @@
     box-shadow: 4px 4px 8px 2px rgba(26, 255, 0, 0.2);
 }
 
+.plus-item:hover .check-img svg path {
+    stroke: #02E502;
+}
+
+
+
 /* Plus Swiper */
 .swiper.plusSwiper {
     width: 100%;
@@ -127,6 +133,57 @@
     margin-top: 20px;
 }
 
+
+.bg-plus-left {
+    position: relative;
+}
+
+.bg-plus-left::before {
+    background-image: url(../img/spraying/plus-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 96px;
+    left: -121px;
+    display: block;
+    content: '';
+    width: 79px;
+    height: 242px;
+}
+
+.bg-plus-right {
+    position: relative;
+}
+
+.bg-plus-right::after {
+    background-image: url(../img/spraying/graydrone-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 388px;
+    right: -117px;
+    display: block;
+    content: '';
+    width: 264px;
+    height: 265px;
+    z-index: -1;
+    animation: animate 5s linear infinite;
+}
+
+
+
+
+
+
+
+/* Support box */
+.support-box:hover {
+    background: black;
+    border-radius: 14px;
+    -webkit-box-shadow: 4px 5px 6px -2px rgba(26, 255, 0, 0.2);
+    -moz-box-shadow: 4px 5px 6px -2px rgba(26, 255, 0, 0.2);
+    box-shadow: 4px 5px 6px -2px rgba(26, 255, 0, 0.2);
+}
 
 
 

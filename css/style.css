@@ -297,9 +297,9 @@ body {
 
 
 .advantage-item:hover {
-    -webkit-box-shadow: 28px 27px 8px -16px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 28px 27px 8px -16px rgba(0, 0, 0, 0.2);
-    box-shadow: 28px 27px 8px -16px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 4px 4px 8px 2px rgba(26, 255, 0, 0.2);
+    -moz-box-shadow: 4px 4px 8px 2px rgba(26, 255, 0, 0.2);
+    box-shadow: 4px 4px 8px 2px rgba(26, 255, 0, 0.2);
     transform: scale(0.89);
     transition: 0.4s;
 }
@@ -583,8 +583,9 @@ body {
 
 .country-item ol li:hover {
     transform: translate(25px);
-    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5px #fff;
+    text-shadow: 0 0 1px rgb(0, 253, 42), 0 0 3px rgb(0, 253, 42), 0 0 5px rgb(0, 253, 42);
     transition: 0.5s;
+    color: #00d100;
 }
 
 
@@ -606,6 +607,9 @@ body {
 
 .news-item:hover {
     transform: scale(0.95);
+    -webkit-box-shadow: 4px 4px 8px 2px rgba(26, 255, 0, 0.2);
+    -moz-box-shadow: 4px 4px 8px 2px rgba(26, 255, 0, 0.2);
+box-shadow: 10px 7px 9px 0px rgb(26 255 0 / 30%);
 }
 
 
@@ -621,7 +625,7 @@ body {
     height: 1px;
     background-color: #02E502;
     position: absolute;
-    left: 0;
+    left: 16px;
     top: 30px;
 }
 

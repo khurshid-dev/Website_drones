@@ -182,11 +182,18 @@ svg.active .svg-elem-1 {
     margin-left: auto;
 }
 
+.trixogram-item:hover {
+    background: #000;
+    transform: scale(1.02);
+    transition: .4s;
+}
+
 .trixo-img {
     width: 100%;
     position: absolute;
     left: 0;
     top: 72px;
+    z-index: 1;
 }
 
 .trixo-img img {
@@ -228,6 +235,13 @@ svg.active .svg-elem-1 {
     padding: 70px 225px 75px 30px;
     margin-right: auto;
 }
+
+.zlato-item:hover {
+    background: #000;
+    transform: scale(1.02);
+    transition: .4s;
+}
+
 
 .zlato-img {
     width: 100%;
@@ -299,6 +313,9 @@ svg.active .svg-elem-1 {
 .support-box:hover {
     background: black;
     border-radius: 14px;
+    -webkit-box-shadow: 4px 5px 6px -2px rgba(26, 255, 0, 0.2);
+    -moz-box-shadow: 4px 5px 6px -2px rgba(26, 255, 0, 0.2);
+    box-shadow: 4px 5px 6px -2px rgba(26, 255, 0, 0.2);
 }
 
 .supp-item {
