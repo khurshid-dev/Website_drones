@@ -586,6 +586,11 @@ html {
   margin-bottom: 1.5rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mr-5 {
   margin-right: 1.25rem;
 }
@@ -750,6 +755,18 @@ html {
   margin-right: 14px;
 }
 
+.ml-24 {
+  margin-left: 6rem;
+}
+
+.ml-7 {
+  margin-left: 1.75rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -813,6 +830,11 @@ html {
 
 .w-\[345px\] {
   width: 345px;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .max-w-full {
@@ -895,8 +917,16 @@ html {
   flex-basis: 60%;
 }
 
+.basis-1\/2 {
+  flex-basis: 50%;
+}
+
 .cursor-pointer {
   cursor: pointer;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -933,6 +963,10 @@ html {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-32 {
+  gap: 8rem;
 }
 
 .overflow-hidden {
@@ -1066,6 +1100,11 @@ html {
   padding-right: 1.5rem;
 }
 
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .pt-7 {
   padding-top: 1.75rem;
 }
@@ -1132,6 +1171,10 @@ html {
 
 .pb-\[77px\] {
   padding-bottom: 77px;
+}
+
+.pb-28 {
+  padding-bottom: 7rem;
 }
 
 .text-left {

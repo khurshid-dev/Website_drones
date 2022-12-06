@@ -60,7 +60,7 @@
 }
 
 .ento-advantage-bg::before {
-    background-image: url(../img/entomofagi/adv-bg.png);
+    background-image: url(../img/entomofagi/adv-bg.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 523px;
@@ -206,7 +206,7 @@ svg.active .svg-elem-1 {
 }
 
 .trixo-bg::before {
-    background-image: url(../img/entomofagi/adv-bg.png);
+    background-image: url(../img/entomofagi/trixogram-bg.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 523px;
@@ -262,7 +262,7 @@ svg.active .svg-elem-1 {
 }
 
 .zlato-bg::before {
-    background-image: url(../img/entomofagi/zlato-bg.jpg);
+    background-image: url(../img/entomofagi/zlato-bg.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 523px;
@@ -284,7 +284,7 @@ svg.active .svg-elem-1 {
 }
 
 .gabro-bg::before {
-    background-image: url(../img/entomofagi/gabro-bg.png);
+    background-image: url(../img/entomofagi/gabro-bg.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 523px;

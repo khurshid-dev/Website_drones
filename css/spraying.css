@@ -1,6 +1,6 @@
 /* Main section */
 .main-sprayer {
-    background-image: url(../img/spraying/spraying-bg.png);
+    background-image: url(../img/spraying/spraying-bg.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -202,11 +202,19 @@
     z-index: -1;
 }
 
-.plus-item:hover .close-img svg path {
+.minus-item:hover {
+    transform: scale(0.9);
+    transition: .5s;
+    -webkit-box-shadow: 4px 4px 8px 2px rgba(255, 0, 0, 0.2);
+    -moz-box-shadow: 4px 4px 8px 2px rgba(255, 0, 0, 0.2);
+    box-shadow: 4px 4px 8px 2px rgba(255, 0, 0, 0.2);
+}
+
+.minus-item:hover .close-img svg path {
     stroke: #720000;
 }
 
-.plus-item:hover .close-img {
+.minus-item:hover .close-img {
     border-radius: 50%;
     border: 0.5px solid #ffffff;
     padding: 1px;
@@ -215,6 +223,65 @@
 }
 
 
+
+
+
+/* Drobline Section */
+
+.drobline-title-bg {
+    position: relative;
+}
+
+.drobline-title-bg::before {
+    background-image: url(../img/spraying/drobline-bg-title.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 13px;
+    left: -121px;
+    display: block;
+    content: '';
+    width: 79px;
+    height: 609px;
+}
+
+.drobline-bg {
+    position: relative;
+}
+
+.drobline-bg::before {
+    background-image: url(../img/spraying/drobline-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -382px;
+    left: -63px;
+    display: block;
+    content: '';
+    width: 1110px;
+    height: 936px;
+    z-index: -10;
+}
+
+.drob-item:hover {
+    transform: scale(0.9);
+    transition: all .5s ease-in-out;
+    -webkit-box-shadow: 4px 4px 8px 2px rgba(255, 0, 0, 0.2);
+    -moz-box-shadow: 4px 4px 8px 2px rgba(255, 0, 0, 0.2);
+    box-shadow: 4px 4px 8px 2px rgba(255, 0, 0, 0.2);
+}
+
+.drob-item:hover .close-img svg path {
+    stroke: #720000;
+}
+
+.drob-item:hover .close-img {
+    border-radius: 50%;
+    border: 0.5px solid #ffffff;
+    padding: 1px;
+    background: #ffffff;
+    transition: .4s;
+}
 
 
 
