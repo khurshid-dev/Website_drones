@@ -136,10 +136,17 @@
     box-shadow: 4px 4px 8px 2px rgba(26, 255, 0, 0.2);
 }
 
+.swiper.plusSwiper .swiper-slide.minus {
+    -webkit-box-shadow: 4px 4px 8px 2px rgba(255, 0, 0, 0.2);
+    -moz-box-shadow: 4px 4px 8px 2px rgba(255, 0, 0, 0.2);
+    box-shadow: 4px 4px 8px 2px rgba(255, 0, 0, 0.2);
+}
+
 .swiper.plusSwiper .swiper-pagination {
     margin-top: 20px;
 }
 
+.plus-item-sw {}
 
 .bg-plus-left {
     position: relative;
