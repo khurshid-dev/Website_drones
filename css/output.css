@@ -1331,9 +1331,18 @@ html {
     display: none;
   }
 
+  .lg\:max-w-\[455px\] {
+    max-width: 455px;
+  }
+
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:leading-5 {
@@ -1608,6 +1617,11 @@ html {
     line-height: 2rem;
   }
 
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .md\:leading-8 {
     line-height: 2rem;
   }
@@ -1709,6 +1723,10 @@ html {
 
   .ss\:mr-8 {
     margin-right: 2rem;
+  }
+
+  .ss\:mt-0 {
+    margin-top: 0px;
   }
 
   .ss\:block {

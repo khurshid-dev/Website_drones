@@ -96,6 +96,13 @@
     stroke: #02E502;
 }
 
+.plus-item:hover .check-img svg {
+    border-radius: 50%;
+    border: 0.5px solid #ffffff;
+    padding: 2px;
+    background: #ffffff;
+    transition: .4s;
+}
 
 
 /* Plus Swiper */
@@ -139,7 +146,7 @@
 }
 
 .bg-plus-left::before {
-    background-image: url(../img/spraying/plus-bg.png);
+    background-image: url(../img/spraying/plus-bg.svg);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -175,6 +182,44 @@
 
 
 
+/* Minus Section */
+
+.bg-minus-right {
+    position: relative;
+}
+
+.bg-minus-right::after {
+    background-image: url(../img/spraying/minus-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 86px;
+    right: -143px;
+    display: block;
+    width: 103px;
+    height: 292px;
+    content: '';
+    z-index: -1;
+}
+
+.plus-item:hover .close-img svg path {
+    stroke: #720000;
+}
+
+.plus-item:hover .close-img {
+    border-radius: 50%;
+    border: 0.5px solid #ffffff;
+    padding: 1px;
+    background: #ffffff;
+    transition: .4s;
+}
+
+
+
+
+
+
+
 
 /* Support box */
 .support-box:hover {
@@ -187,28 +232,44 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* All Media Query */
 
 @media only screen and (max-width: 1250px) {
     .main-sprayer {
-        background-image: url(../img/spraying/spraying-bg.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        top: -10px;
-        padding: 136px 21px 67px;
-        z-index: 1;
-        position: relative;
+        padding: 200px 29px 25px;
     }
 }
 
 @media only screen and (max-width: 990px) {
+    .main-sprayer {
+        padding: 162px 11px 54px;
+    }
+
     .swiper.plusSwiper {
         display: block;
     }
 }
 
 @media only screen and (max-width: 768px) {
+    .main-sprayer {
+        padding: 58px 11px 38px;
+    }
+
     .supp-bg::before {
         display: none;
     }
@@ -224,13 +285,44 @@
     .swiper.plusSwiper .swiper-slide {
         max-width: 98%;
     }
+
+    .bg-plus-right::after {
+        background-size: 164px 165px;
+        bottom: 374px;
+        right: -62px;
+        width: 164px;
+        height: 165px;
+    }
 }
 
-@media only screen and (max-width: 500px) {}
+@media only screen and (max-width: 500px) {
+    .main-sprayer {
+        background-image: inherit;
+        padding: 52px 0px 0px;
+    }
+
+    .main-info {
+        position: relative;
+        bottom: 74px;
+    }
+
+    .bg-plus-right::after {
+        bottom: 353px;
+        right: -78px;
+    }
+}
 
 @media only screen and (max-width: 420px) {
     .sprayer-text {
         height: 137px;
         margin-top: 66px;
+    }
+
+    .bg-plus-right::after {
+        background-size: 104px 105px;
+        bottom: 328px;
+        right: -43px;
+        width: 104px;
+        height: 105px;
     }
 }
