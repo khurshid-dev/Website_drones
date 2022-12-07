@@ -146,7 +146,7 @@
     margin-top: 20px;
 }
 
-.plus-item-sw {}
+
 
 .bg-plus-left {
     position: relative;
@@ -234,6 +234,47 @@
 
 
 /* Drobline Section */
+
+.swiper.drobSwiper {
+    height: 100%;
+    max-width: inherit;
+    display: none;
+    margin: 50px auto;
+}
+
+.swiper.drobSwiper .swiper-slide {
+    margin-right: 24px;
+    text-align: left;
+    flex-basis: 93%;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    flex-direction: column;
+    justify-content: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: start;
+    border-radius: 20px;
+    background: #000000;
+    -webkit-box-shadow: 4px 4px 8px 2px rgba(26, 255, 0, 0.2);
+    -moz-box-shadow: 4px 4px 8px 2px rgba(26, 255, 0, 0.2);
+    box-shadow: 4px 4px 8px 2px rgba(26, 255, 0, 0.2);
+}
+
+.swiper.drobSwiper .swiper-slide.minus {
+    -webkit-box-shadow: 4px 4px 8px 2px rgba(255, 0, 0, 0.2);
+    -moz-box-shadow: 4px 4px 8px 2px rgba(255, 0, 0, 0.2);
+    box-shadow: 4px 4px 8px 2px rgba(255, 0, 0, 0.2);
+}
+
+
+
 
 .drobline-title-bg {
     position: relative;
@@ -335,6 +376,10 @@
     }
 
     .swiper.plusSwiper {
+        display: block;
+    }
+
+    .swiper.drobSwiper {
         display: block;
     }
 }
