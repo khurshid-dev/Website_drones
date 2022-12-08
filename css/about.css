@@ -15,6 +15,44 @@
 
 
 
+/* Support Section */
+
+.support-box {
+    padding: 0px 30px 50px 28px;
+    transition: 0.4s;
+    z-index: 2;
+}
+
+.support-box:hover {
+    background: black;
+    border-radius: 14px;
+    -webkit-box-shadow: 4px 5px 6px -2px rgba(26, 255, 0, 0.2);
+    -moz-box-shadow: 4px 5px 6px -2px rgba(26, 255, 0, 0.2);
+    box-shadow: 4px 5px 6px -2px rgba(26, 255, 0, 0.2);
+}
+
+.supp-item {
+    z-index: 2;
+}
+
+.supp-bg {
+    position: relative;
+}
+
+.supp-bg::before {
+    background-image: url(../img/entomofagi/support_bg.png);
+    background-repeat: no-repeat;
+    width: 715px;
+    height: 558px;
+    position: absolute;
+    display: block;
+    content: '';
+    right: 154px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+
 
 
 
@@ -44,8 +82,29 @@
     }
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .main-dron svg {
+        right: 57%;
+        top: -16px;
+        width: 351px;
+    }
 
-@media only screen and (max-width: 500px) {}
+    .main-dron img {
+        right: 44%;
+        top: -3px;
+    }
+}
 
-@media only screen and (max-width: 420px) {}
+@media only screen and (max-width: 500px) {
+    .main-about {
+        background-image: inherit;
+        padding: 12px 0 100px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .main-about {
+        background-image: inherit;
+        padding: 12px 0 0;
+    }
+}

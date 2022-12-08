@@ -1173,6 +1173,10 @@ html {
   text-align: left;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1370,14 +1374,8 @@ html {
     max-width: 455px;
   }
 
-  .lg\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+  .lg\:pt-24 {
+    padding-top: 6rem;
   }
 
   .lg\:text-4xl {
@@ -1390,12 +1388,22 @@ html {
     line-height: 1.75rem;
   }
 
-  .lg\:leading-5 {
-    line-height: 1.25rem;
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:leading-4 {
     line-height: 1rem;
+  }
+
+  .lg\:leading-5 {
+    line-height: 1.25rem;
   }
 }
 
@@ -1504,6 +1512,10 @@ html {
 
   .md\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .md\:mt-28 {
+    margin-top: 7rem;
   }
 
   .md\:hidden {
@@ -1639,6 +1651,10 @@ html {
 
   .md\:pt-\[72px\] {
     padding-top: 72px;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:text-xl {
@@ -1864,6 +1880,10 @@ html {
 
   .ss\:pb-8 {
     padding-bottom: 2rem;
+  }
+
+  .ss\:pt-16 {
+    padding-top: 4rem;
   }
 
   .ss\:text-base {
