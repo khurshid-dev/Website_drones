@@ -1,0 +1,51 @@
+/* Main about section */
+.main-about {
+    background-image: url(../img/aboutus/about-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: -10px;
+    padding: 12px 0 100px;
+    z-index: 1;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+/* All Media Query */
+
+@media only screen and (max-width: 1250px) {
+    .main-about {
+        padding: 12px 0 80px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .main-about {
+        padding: 12px 0 80px;
+    }
+
+    .main-dron svg {
+        right: 359px;
+        top: 28px;
+        width: 450px;
+    }
+
+    .main-dron img {
+        right: 247px;
+        top: -3px;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 500px) {}
+
+@media only screen and (max-width: 420px) {}
