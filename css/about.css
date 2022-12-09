@@ -11,6 +11,19 @@
 }
 
 
+/* About section */
+
+.command-work {
+    padding: 10px;
+    border: 1px solid #fdff00;
+    border-radius: 20px;
+    background-color: #fdff00;
+    color: black;
+    font-weight: 600;
+    max-width: fit-content;
+    margin-left: 12px;
+    margin-bottom: 30px;
+}
 
 
 
