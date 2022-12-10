@@ -26,6 +26,12 @@
 }
 
 
+/* Command Section */
+.swiper.mySwiperTwo.three {
+    height: 447px;
+}
+
+
 
 
 /* Support Section */
@@ -119,5 +125,18 @@
     .main-about {
         background-image: inherit;
         padding: 12px 0 0;
+    }
+
+    .swiper.mySwiperTwo.three {
+        height: 322px;
+    }
+
+    .swiper.mySwiperTwo.three .swiper-slide {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .command-work {
+        padding: 3px 6px;
     }
 }

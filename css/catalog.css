@@ -1,0 +1,101 @@
+.main-catalog {
+    background-image: url(../img/catalog/catalog-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: -35px;
+    padding: 141px 0 100px;
+    z-index: 1;
+    position: relative;
+}
+
+.main-dron-catalog svg {
+    right: 64%;
+    top: 26px;
+    width: 49%;
+    position: absolute;
+}
+
+.main-dron-catalog img {
+    right: 53%;
+    top: -10px;
+    position: absolute;
+}
+
+.catalog-item {
+    cursor: pointer;
+}
+
+.catalog-item:hover {
+    transition: 0.5s;
+    transform: scale(1.07);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* All Media Query */
+
+@media only screen and (max-width: 1250px) {}
+
+@media only screen and (max-width: 990px) {}
+
+@media only screen and (max-width: 768px) {
+    .main-catalog {
+        padding: 39px 0 75px;
+    }
+
+    .main-dron-catalog svg {
+        right: 64%;
+        top: -9px;
+        width: 49%;
+    }
+
+    .main-dron-catalog img {
+        width: 9%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main-catalog {
+        background-image: inherit;
+        padding: 28px 0 0;
+    }
+
+    .main-dron-catalog svg {
+        right: 38%;
+        top: 3px;
+        width: 60%;
+    }
+
+    .main-dron-catalog img {
+        right: 22%;
+        top: 11px;
+        width: 10%;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .main-dron-catalog svg {
+        right: 36%;
+        top: 0px;
+        width: 88%;
+    }
+
+    .main-dron-catalog img {
+        right: 20%;
+        top: 11px;
+        width: 12%;
+        position: absolute;
+    }
+}
