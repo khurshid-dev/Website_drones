@@ -25,6 +25,7 @@ module.exports = {
             textflex: '#ffffff81',
             borderform: '#4B4A4A',
             bgline: '#464646',
+            submenubg: 'hsl(0deg 0% 4% / 90%);',
         },
     },
     },

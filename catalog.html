@@ -162,16 +162,20 @@
                 <h1>Об Услуге</h1>
                 <h4>Энтомофаги</h4>
             </div>
-            <div class="category-sec flex items-center">
+
+
+            <!-- Delete after down 990, and adding respons section -->
+            <div class="category-sec flex items-center lg:hidden">
                 <div class="mr-3">
                     <div class="category text-2xl leading-6 mb-3 -mt-9 cursor-pointer">Категории</div>
                     <div class="category_line bg-[#464646] w-20 h-[0.75px]"></div>
                 </div>
-                <div class="category_icon hidden md:block relative bottom-5 cursor-pointer"><img class="object-cover"
-                        src="img/catalog/Vector.svg" alt="Vector"></div>
             </div>
-            <div class="main-catalogy flex justify-between">
-                <div class="category-items transition h-auto basis-1/2 relative">
+            <!-- Delete after down 990, and adding respons section -->
+
+
+            <div class="main-catalogy flex justify-between lg:justify-center lg:flex-col">
+                <div class="category-items lg:hidden transition h-auto basis-[32%] relative">
                     <div class="category-item flex items-end my-5 cursor-pointer">
                         <img src="img/catalog/category-1.png" alt="category-icon">
                         <h6 class="ml-3 text-lg leading-5">БПЛА Самолетного типа</h6>
@@ -288,120 +292,271 @@
                         </select>
                     </div>
                 </div>
-                <div class="drones basis-[75%] max-w-[75%]">
-                    <div class="drone-box flex gap-3 mb-3 text-white">
-                        <div class="drone-items">
-                            <div
-                                class="drone-item box-border h-[510px] w-[326px] text-white bg-bgflex rounded-lg transition-[0.4s]">
-                                <div class="p-img cursor-pointer mx-6 mt-4 max-w-[373px]"><img
-                                        src="img/main/product-d1.png" alt="Dron1">
-                                </div>
-                                <div class="p-info ml-10">
-                                    <div class="p-name leading-8 text-2xl mt-7">Агродрон AGR A22</div>
-                                    <div class="p-about mt-4 mb-5 text-[20px] leading-9 font-normal">
-                                        <p>Бренд: <span class="font-light">AGR</span></p>
-                                        <p> Модель: <span class="font-light">101-0101</span></p>
-                                    </div>
-                                    <div class="p-price text-3xl leading-7 mb-12">$15001.27</div>
-                                    <button
-                                        class="p-shopping border px-6 py-2 mb-5 text-2xl text-lightgreen border-lightgreen transition-[0.8s] hover:bg-lightgreen hover:text-white">Добавить
-                                        в корзину</button>
-                                </div>
-                            </div>
+
+
+                <!-- Responsive after down 990 -->
+                <div class="category-respons hidden lg:block transition h-auto ml-8 mb-8 basis-1/2 relative  z-10">
+
+                    <div class="category-respons-section flex items-center">
+                        <div class="mr-3">
+                            <div class="category-title text-2xl leading-6 mb-3 -mt-9 cursor-pointer">Категории</div>
+                            <div class="category_line bg-[#464646] w-20 h-[0.75px]"></div>
                         </div>
-                        <div class="drone-items">
-                            <div
-                                class="drone-item box-border h-[510px] w-[326px] text-white bg-bgflex rounded-lg transition-[0.4s]">
-                                <div class="p-img cursor-pointer mx-6 mt-4 max-w-[373px]"><img
-                                        src="img/main/product-d2.png" alt="Dron1">
-                                </div>
-                                <div class="p-info ml-10">
-                                    <div class="p-name leading-8 text-2xl mt-7">Дрон- Картограф STS M8</div>
-                                    <div class="p-about mt-4 mb-5 text-[20px] leading-9 font-normal">
-                                        <p>Бренд: <span class="font-light">STS</span></p>
-                                        <p> Модель: <span class="font-light">101-11</span></p>
-                                    </div>
-                                    <div class="p-price text-3xl leading-7 mb-12">$18206.30</div>
-                                    <button
-                                        class="p-shopping border px-6 py-2 mb-5 text-2xl text-lightgreen border-lightgreen transition-[0.8s] hover:bg-lightgreen hover:text-white">Добавить
-                                        в корзину</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="drone-items">
-                            <div
-                                class="drone-item box-border h-[510px] w-[326px] text-white bg-bgflex rounded-lg transition-[0.4s]">
-                                <div class="p-img cursor-pointer mx-6 mt-4 max-w-[373px]"><img
-                                        src="img/main/product-d3.png" alt="Dron1">
-                                </div>
-                                <div class="p-info ml-10">
-                                    <div class="p-name leading-8 text-2xl mt-7">Дрон - Картограф STS M1550</div>
-                                    <div class="p-about mt-4 mb-5 text-[20px] leading-9 font-normal">
-                                        <p>Бренд: <span class="font-light">STS</span></p>
-                                        <p> Модель: <span class="font-light">100-10</span></p>
-                                    </div>
-                                    <div class="p-price text-3xl leading-7 mb-12">$13802.86</div>
-                                    <button
-                                        class="p-shopping border px-6 py-2 mb-5 text-2xl text-lightgreen border-lightgreen transition-[0.8s] hover:bg-lightgreen hover:text-white">Добавить
-                                        в корзину</button>
-                                </div>
-                            </div>
+                        <div class="category_icon relative bottom-5 cursor-pointer"><svg width="15" height="8"
+                                viewBox="0 0 15 8" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.9588 0.179359L7.49934 6.55527L1.03984 0.179359C0.924426 0.0652126 0.769497 0.00130859 0.608168 0.00130859C0.446839 0.00130859 0.291911 0.0652126 0.176501 0.179359C0.12062 0.234801 0.076225 0.300975 0.0459179 0.374008C0.0156107 0.447041 0 0.525463 0 0.604682C0 0.6839 0.0156107 0.762322 0.0459179 0.835355C0.076225 0.908388 0.12062 0.974563 0.176501 1.03L7.04829 7.81423C7.16896 7.93334 7.33082 8 7.49934 8C7.66786 8 7.82971 7.93334 7.95039 7.81423L14.8222 1.03131C14.8785 0.97583 14.9232 0.909493 14.9537 0.836218C14.9843 0.762943 15 0.684216 15 0.604682C15 0.525148 14.9843 0.44642 14.9537 0.373145C14.9232 0.29987 14.8785 0.233533 14.8222 0.17805C14.7068 0.0639034 14.5518 0 14.3905 0C14.2292 0 14.0743 0.0639034 13.9588 0.17805V0.179359Z" />
+                            </svg>
                         </div>
                     </div>
-                    <div class="drone-box flex gap-3 text-white">
-                        <div class="drone-items">
+
+                    <div class="category-respons-items absolute p-[22px] rounded-xl mt-3 bg-submenubg">
+                        <div class="category-item flex items-end my-5 cursor-pointer">
+                            <img src="img/catalog/category-1.png" alt="category-icon">
+                            <h6 class="ml-3 text-lg leading-5">БПЛА Самолетного типа</h6>
+                        </div>
+                        <div class="category-item hideMenu">
+                            <div class="category-item-menu flex items-end my-5 cursor-pointer">
+                                <img src="img/catalog/category-2.png" alt="category-icon">
+                                <h6 class="ml-3 text-lg leading-5">БПЛАмультироторного типа</h6>
+                                <svg class="vector object-cover mb-[7px] ml-[11px] w-[14px]" width="14" height="8"
+                                    viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.9588 0.179359L7.49934 6.55527L1.03984 0.179359C0.924426 0.0652126 0.769497 0.00130859 0.608168 0.00130859C0.446839 0.00130859 0.291911 0.0652126 0.176501 0.179359C0.12062 0.234801 0.076225 0.300975 0.0459179 0.374008C0.0156107 0.447041 0 0.525463 0 0.604682C0 0.6839 0.0156107 0.762322 0.0459179 0.835355C0.076225 0.908388 0.12062 0.974563 0.176501 1.03L7.04829 7.81423C7.16896 7.93334 7.33082 8 7.49934 8C7.66786 8 7.82971 7.93334 7.95039 7.81423L14.8222 1.03131C14.8785 0.97583 14.9232 0.909493 14.9537 0.836218C14.9843 0.762943 15 0.684216 15 0.604682C15 0.525148 14.9843 0.44642 14.9537 0.373145C14.9232 0.29987 14.8785 0.233533 14.8222 0.17805C14.7068 0.0639034 14.5518 0 14.3905 0C14.2292 0 14.0743 0.0639034 13.9588 0.17805V0.179359Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <ul class="sub-menu ml-10 max-w-[214px]">
+                                <li class="category-inner flex items-end my-5">
+                                    <img src="img/catalog/category-2.1.png" alt="category-icon">
+                                    <a href="#" class="ml-3 text-lg leading-5">Дроны опрыскиватели</a>
+                                </li>
+                                <li class="category-inner flex items-end my-5">
+                                    <img src="img/catalog/category-2.2.png" alt="category-icon">
+                                    <a href="#" class="ml-3 text-lg leading-5">Дроны для картографии</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="category-item hideMenu">
+                            <div class="category-item-menu flex items-end my-5 cursor-pointer">
+                                <img src="img/catalog/category-3.png" alt="category-icon">
+                                <h6 class="ml-3 text-lg leading-5">Полезные нагрузки</h6>
+                                <svg class="vector object-cover mb-[7px] ml-[11px] w-[14px]" width="14" height="8"
+                                    viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.9588 0.179359L7.49934 6.55527L1.03984 0.179359C0.924426 0.0652126 0.769497 0.00130859 0.608168 0.00130859C0.446839 0.00130859 0.291911 0.0652126 0.176501 0.179359C0.12062 0.234801 0.076225 0.300975 0.0459179 0.374008C0.0156107 0.447041 0 0.525463 0 0.604682C0 0.6839 0.0156107 0.762322 0.0459179 0.835355C0.076225 0.908388 0.12062 0.974563 0.176501 1.03L7.04829 7.81423C7.16896 7.93334 7.33082 8 7.49934 8C7.66786 8 7.82971 7.93334 7.95039 7.81423L14.8222 1.03131C14.8785 0.97583 14.9232 0.909493 14.9537 0.836218C14.9843 0.762943 15 0.684216 15 0.604682C15 0.525148 14.9843 0.44642 14.9537 0.373145C14.9232 0.29987 14.8785 0.233533 14.8222 0.17805C14.7068 0.0639034 14.5518 0 14.3905 0C14.2292 0 14.0743 0.0639034 13.9588 0.17805V0.179359Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <ul class="sub-menu ml-10 max-w-[214px]">
+                                <li class="category-inner flex items-end my-5">
+                                    <img src="img/catalog/category-3.1.png" alt="category-icon">
+                                    <a href="#" class="ml-3 text-lg leading-5">Фотокамеры</a>
+                                </li>
+                                <li class="category-inner flex items-end my-5">
+                                    <img src="img/catalog/category-3.2.png" alt="category-icon">
+                                    <a href="#" class="ml-3 text-lg leading-5">Мультиспектральные камеры</a>
+                                </li>
+                                <li class="category-inner flex items-end my-5">
+                                    <img src="img/catalog/category-3.3.png" alt="category-icon">
+                                    <a href="#" class="ml-3 text-lg leading-5">Гиростабилизированные видеокамеры и
+                                        тепловизоры</a>
+                                </li>
+                                <li class="category-inner flex items-end my-5">
+                                    <img src="img/catalog/category-3.4.png" alt="category-icon">
+                                    <a href="#" class="ml-3 text-lg leading-5">Cпециализированные модули</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="category-item hideMenu">
+                            <div class="category-item-menu flex items-end my-5 cursor-pointer">
+                                <img src="img/catalog/category-4.png" alt="category-icon">
+                                <h6 class="ml-3 text-lg leading-5">Комплектующие</h6>
+                                <svg class="vector object-contain mb-[7px] ml-[11px] w-[14px]" width="14" height="8"
+                                    viewBox="0 0 15 8" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.9588 0.179359L7.49934 6.55527L1.03984 0.179359C0.924426 0.0652126 0.769497 0.00130859 0.608168 0.00130859C0.446839 0.00130859 0.291911 0.0652126 0.176501 0.179359C0.12062 0.234801 0.076225 0.300975 0.0459179 0.374008C0.0156107 0.447041 0 0.525463 0 0.604682C0 0.6839 0.0156107 0.762322 0.0459179 0.835355C0.076225 0.908388 0.12062 0.974563 0.176501 1.03L7.04829 7.81423C7.16896 7.93334 7.33082 8 7.49934 8C7.66786 8 7.82971 7.93334 7.95039 7.81423L14.8222 1.03131C14.8785 0.97583 14.9232 0.909493 14.9537 0.836218C14.9843 0.762943 15 0.684216 15 0.604682C15 0.525148 14.9843 0.44642 14.9537 0.373145C14.9232 0.29987 14.8785 0.233533 14.8222 0.17805C14.7068 0.0639034 14.5518 0 14.3905 0C14.2292 0 14.0743 0.0639034 13.9588 0.17805V0.179359Z" />
+                                </svg>
+                            </div>
+                            <ul class="sub-menu ml-10 max-w-[214px]">
+                                <li class="category-inner flex items-end my-5">
+                                    <img src="img/catalog/category-4.1.png" alt="category-icon">
+                                    <a href="#" class="ml-3 text-lg leading-5">Батареи</a>
+                                </li>
+                                <li class="category-inner flex items-end my-5">
+                                    <img src="img/catalog/category-4.2.png" alt="category-icon">
+                                    <a href="#" class="ml-3 text-lg leading-5">Зарядные устройства</a>
+                                </li>
+                                <li class="category-inner flex items-end my-5">
+                                    <img src="img/catalog/category-4.3.png" alt="category-icon">
+                                    <a href="#" class="ml-3 text-lg leading-5">Генераторы</a>
+                                </li>
+                                <li class="category-inner flex items-end my-5">
+                                    <img src="img/catalog/category-4.4.png" alt="category-icon">
+                                    <a href="#" class="ml-3 text-lg leading-5">Пульты управления</a>
+                                </li>
+                                <li class="category-inner flex items-end my-5">
+                                    <img src="img/catalog/category-4.5.png" alt="category-icon">
+                                    <a href="#" class="ml-3 text-lg leading-5">Высокоточная навигация</a>
+                                </li>
+                                <li class="category-inner flex items-end my-5">
+                                    <img src="img/catalog/category-4.6.png" alt="category-icon">
+                                    <a href="#" class="ml-3 text-lg leading-5">Привязные системы для коптеров</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="category-item flex cursor-pointer">
+                            <img src="img/catalog/category-5.png" alt="category-icon">
+                            <h6 class="ml-3 text-lg leading-5">Программное обеспечение</h6>
+                        </div>
+
+                        <div class="category_line absolute w-[272px] h-[0.75px] bg-bgline my-10"></div>
+
+                        <div class="category-user mt-20">
+                            <h5 class="text-lg leading-5 mb-5">Производители</h5>
+                            <select
+                                class="select-button bg-black w-[80%] rounded-md py-[18px] px-2 focus-within::outline-none"
+                                name="manufactures">
+                                <option value="Все">Все</option>
+                                <option value="Мониторинг агроопераций">Мониторинг агроопераций</option>
+                                <option value="Критериев и методов оценки">Критериев и методов оценки</option>
+                                <option value="Графика посещений">Графика посещений</option>
+                                <option value="Механики взаимодействия">Механики взаимодействия</option>
+                                <option value="Анализ результатов каждого ключевого этапа">Анализ результатов каждого
+                                    ключевого этапа</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <!-- Responsive after down 990 -->
+
+
+                <div class="drones z-0 basis-[100%] lg:basis-[100%] max-w-[100%] lg:max-w-[100%]">
+                    <div class="drone-box flex flex-wrap ss:justify-center gap-3 mb-3 text-white w-full">
+                        <div
+                            class="drone-items basis-[32%] md:basis-[48%] ss:basis-[70%] sm:basis-[78%] w-[32%] md:w-[48%] ss:w-[70%] sm:w-[78%] h-auto">
                             <div
-                                class="drone-item box-border h-[510px] w-[326px] text-white bg-bgflex rounded-lg transition-[0.4s]">
+                                class="drone-item box-border h-[99%] w-[99%] text-white bg-bgflex rounded-lg transition-[0.4s]">
                                 <div class="p-img cursor-pointer mx-6 mt-4 max-w-[373px]"><img
                                         src="img/main/product-d1.png" alt="Dron1">
                                 </div>
-                                <div class="p-info ml-10">
-                                    <div class="p-name leading-8 text-2xl mt-7">Агродрон AGR A22</div>
-                                    <div class="p-about mt-4 mb-5 text-[20px] leading-9 font-normal">
+                                <div class="p-info px-[30px]">
+                                    <div class="p-name leading-8 text-2xl xl:text-xl mt-7">Агродрон AGR A22</div>
+                                    <div
+                                        class="p-about mt-4 mb-5 text-[20px] xl:text-lg leading-9 xl:leading-8 font-normal">
                                         <p>Бренд: <span class="font-light">AGR</span></p>
                                         <p> Модель: <span class="font-light">101-0101</span></p>
                                     </div>
-                                    <div class="p-price text-3xl leading-7 mb-12">$15001.27</div>
+                                    <div class="p-price text-3xl xl:text-2xl leading-7 mb-12">$15001.27</div>
                                     <button
-                                        class="p-shopping border px-6 py-2 mb-5 text-2xl text-lightgreen border-lightgreen transition-[0.8s] hover:bg-lightgreen hover:text-white">Добавить
+                                        class="p-shopping mx-auto block border px-6 xl:px-5 py-2 xl:py-1 mb-5 text-2xl xl:text-lg text-lightgreen border-lightgreen transition-[0.8s] hover:bg-lightgreen hover:text-white">Добавить
                                         в корзину</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="drone-items">
+                        <div
+                            class="drone-items basis-[32%] md:basis-[48%] ss:basis-[70%] sm:basis-[78%] w-[32%] md:w-[48%] ss:w-[70%] sm:w-[78%] h-auto">
                             <div
-                                class="drone-item box-border h-[510px] w-[326px] text-white bg-bgflex rounded-lg transition-[0.4s]">
+                                class="drone-item box-border h-[99%] w-[99%] text-white bg-bgflex rounded-lg transition-[0.4s]">
                                 <div class="p-img cursor-pointer mx-6 mt-4 max-w-[373px]"><img
                                         src="img/main/product-d2.png" alt="Dron1">
                                 </div>
-                                <div class="p-info ml-10">
-                                    <div class="p-name leading-8 text-2xl mt-7">Дрон- Картограф STS M8</div>
-                                    <div class="p-about mt-4 mb-5 text-[20px] leading-9 font-normal">
+                                <div class="p-info px-[30px]">
+                                    <div class="p-name leading-8 text-2xl xl:text-xl mt-7">Дрон- Картограф STS M8</div>
+                                    <div
+                                        class="p-about mt-4 mb-5 text-[20px] xl:text-lg leading-9 xl:leading-8 font-normal">
                                         <p>Бренд: <span class="font-light">STS</span></p>
                                         <p> Модель: <span class="font-light">101-11</span></p>
                                     </div>
-                                    <div class="p-price text-3xl leading-7 mb-12">$18206.30</div>
+                                    <div class="p-price text-3xl xl:text-2xl leading-7 mb-12">$18206.30</div>
                                     <button
-                                        class="p-shopping border px-6 py-2 mb-5 text-2xl text-lightgreen border-lightgreen transition-[0.8s] hover:bg-lightgreen hover:text-white">Добавить
+                                        class="p-shopping mx-auto block border px-6 xl:px-5 py-2 xl:py-1 mb-5 text-2xl xl:text-lg text-lightgreen border-lightgreen transition-[0.8s] hover:bg-lightgreen hover:text-white">Добавить
                                         в корзину</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="drone-items">
+                        <div
+                            class="drone-items basis-[32%] md:basis-[48%] ss:basis-[70%] sm:basis-[78%] w-[32%] md:w-[48%] ss:w-[70%] sm:w-[78%] h-auto">
                             <div
-                                class="drone-item box-border h-[510px] w-[326px] text-white bg-bgflex rounded-lg transition-[0.4s]">
+                                class="drone-item box-border h-[99%] w-[99%] text-white bg-bgflex rounded-lg transition-[0.4s]">
                                 <div class="p-img cursor-pointer mx-6 mt-4 max-w-[373px]"><img
                                         src="img/main/product-d3.png" alt="Dron1">
                                 </div>
-                                <div class="p-info ml-10">
-                                    <div class="p-name leading-8 text-2xl mt-7">Дрон - Картограф STS M1550</div>
-                                    <div class="p-about mt-4 mb-5 text-[20px] leading-9 font-normal">
+                                <div class="p-info px-[30px]">
+                                    <div class="p-name leading-8 text-2xl xl:text-xl mt-7">Дрон - Картограф STS M1550
+                                    </div>
+                                    <div
+                                        class="p-about mt-4 mb-5 text-[20px] xl:text-lg leading-9 xl:leading-8 font-normal">
                                         <p>Бренд: <span class="font-light">STS</span></p>
                                         <p> Модель: <span class="font-light">100-10</span></p>
                                     </div>
-                                    <div class="p-price text-3xl leading-7 mb-12">$13802.86</div>
+                                    <div class="p-price text-3xl xl:text-2xl leading-7 mb-12">$13802.86</div>
                                     <button
-                                        class="p-shopping border px-6 py-2 mb-5 text-2xl text-lightgreen border-lightgreen transition-[0.8s] hover:bg-lightgreen hover:text-white">Добавить
+                                        class="p-shopping mx-auto block border px-6 xl:px-5 py-2 xl:py-1 mb-5 text-2xl xl:text-lg text-lightgreen border-lightgreen transition-[0.8s] hover:bg-lightgreen hover:text-white">Добавить
+                                        в корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="drone-items basis-[32%] md:basis-[48%] ss:basis-[70%] sm:basis-[78%] w-[32%] md:w-[48%] ss:w-[70%] sm:w-[78%] h-auto">
+                            <div
+                                class="drone-item box-border h-[99%] w-[99%] text-white bg-bgflex rounded-lg transition-[0.4s]">
+                                <div class="p-img cursor-pointer mx-6 mt-4 max-w-[373px]"><img
+                                        src="img/main/product-d1.png" alt="Dron1">
+                                </div>
+                                <div class="p-info px-[30px]">
+                                    <div class="p-name leading-8 text-2xl xl:text-xl mt-7">Агродрон AGR A22</div>
+                                    <div
+                                        class="p-about mt-4 mb-5 text-[20px] xl:text-lg leading-9 xl:leading-8 font-normal">
+                                        <p>Бренд: <span class="font-light">AGR</span></p>
+                                        <p> Модель: <span class="font-light">101-0101</span></p>
+                                    </div>
+                                    <div class="p-price text-3xl xl:text-2xl leading-7 mb-12">$15001.27</div>
+                                    <button
+                                        class="p-shopping mx-auto block border px-6 xl:px-5 py-2 xl:py-1 mb-5 text-2xl xl:text-lg text-lightgreen border-lightgreen transition-[0.8s] hover:bg-lightgreen hover:text-white">Добавить
+                                        в корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="drone-items basis-[32%] md:basis-[48%] ss:basis-[70%] sm:basis-[78%] w-[32%] md:w-[48%] ss:w-[70%] sm:w-[78%] h-auto">
+                            <div
+                                class="drone-item box-border h-[99%] w-[99%] text-white bg-bgflex rounded-lg transition-[0.4s]">
+                                <div class="p-img cursor-pointer mx-6 mt-4 max-w-[373px]"><img
+                                        src="img/main/product-d2.png" alt="Dron1">
+                                </div>
+                                <div class="p-info px-[30px]">
+                                    <div class="p-name leading-8 text-2xl xl:text-xl mt-7">Дрон- Картограф STS M8</div>
+                                    <div
+                                        class="p-about mt-4 mb-5 text-[20px] xl:text-lg leading-9 xl:leading-8 font-normal">
+                                        <p>Бренд: <span class="font-light">STS</span></p>
+                                        <p> Модель: <span class="font-light">101-11</span></p>
+                                    </div>
+                                    <div class="p-price text-3xl xl:text-2xl leading-7 mb-12">$18206.30</div>
+                                    <button
+                                        class="p-shopping mx-auto block border px-6 xl:px-5 py-2 xl:py-1 mb-5 text-2xl xl:text-lg text-lightgreen border-lightgreen transition-[0.8s] hover:bg-lightgreen hover:text-white">Добавить
+                                        в корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="drone-items basis-[32%] md:basis-[48%] ss:basis-[70%] sm:basis-[78%] w-[32%] md:w-[48%] ss:w-[70%] sm:w-[78%] h-auto">
+                            <div
+                                class="drone-item box-border h-[99%] w-[99%] text-white bg-bgflex rounded-lg transition-[0.4s]">
+                                <div class="p-img cursor-pointer mx-6 mt-4 max-w-[373px]"><img
+                                        src="img/main/product-d3.png" alt="Dron1">
+                                </div>
+                                <div class="p-info px-[30px]">
+                                    <div class="p-name leading-8 text-2xl xl:text-xl mt-7">Дрон - Картограф STS M1550
+                                    </div>
+                                    <div
+                                        class="p-about mt-4 mb-5 text-[20px] xl:text-lg leading-9 xl:leading-8 font-normal">
+                                        <p>Бренд: <span class="font-light">STS</span></p>
+                                        <p> Модель: <span class="font-light">100-10</span></p>
+                                    </div>
+                                    <div class="p-price text-3xl xl:text-2xl leading-7 mb-12">$13802.86</div>
+                                    <button
+                                        class="p-shopping mx-auto block border px-6 xl:px-5 py-2 xl:py-1 mb-5 text-2xl xl:text-lg text-lightgreen border-lightgreen transition-[0.8s] hover:bg-lightgreen hover:text-white">Добавить
                                         в корзину</button>
                                 </div>
                             </div>
@@ -409,6 +564,9 @@
                     </div>
                 </div>
             </div>
+
+
+            <div class="bg-category -z-10 md:hidden"></div>
         </div>
     </div>
 
@@ -444,9 +602,9 @@
 
 
     <!-- Link Styles -->
+    <link rel="stylesheet" href="css/catalog.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/entomof.css">
-    <link rel="stylesheet" href="css/catalog.css">
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>

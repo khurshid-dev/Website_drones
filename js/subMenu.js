@@ -8,3 +8,18 @@ for(let i = 0; i < arrowSec.length; i++) {
         arrowParent.classList.toggle('hideMenu');
     })
 }
+
+
+
+
+// After Responsive Submenu
+
+const category = document.querySelector('.category-title');
+
+category.addEventListener('click', () => {
+    categoryParent = category.parentElement.parentElement.parentElement;
+    categoryParent.classList.toggle('active');
+
+})
+
+
