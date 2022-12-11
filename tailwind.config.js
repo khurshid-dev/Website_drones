@@ -24,6 +24,7 @@ module.exports = {
             bgfooter: '#0a0a0a',
             textflex: '#ffffff81',
             borderform: '#4B4A4A',
+            bgline: '#464646',
         },
     },
     },
