@@ -96,8 +96,8 @@
 
     <div class="dron-section mt-5 mb-24">
         <div class="container">
-            <div class="drone-sec-box flex">
-                <div class="drone-img flex flex-col basis-1/2 gap-5">
+            <div class="drone-sec-box flex max-w-full">
+                <div class="drone-img flex flex-col basis-[57%] gap-5 mr-4">
                     <div class="drone-big-img">
                         <img class="w-[95%] border-solid border-[0.5px] hover:rounded-xl transition-all border-borderdrone hover:border-lightgreen px-1 py-1 inline-block cursor-pointer hover:bg-black"
                             src="img/product/product-one/agr-a22-one.png" alt="product-one" id="lg-img"
@@ -112,26 +112,54 @@
                             src="img/product/product-one/agr-a22-three.png" alt="product-one" onclick="droneBox(this)">
                     </div>
                 </div>
-                <div class="drone-about">
-                    <div class="drone-name">Дрон опрыскиватель AGR A22</div>
-                    <div class="drone-articul">Артикуль: 12358</div>
-                    <div class="drone-propertys">
-                        <div class="drone-property"></div>
-                        <div class="drone-property"></div>
-                        <div class="drone-property"></div>
-                        <div class="drone-property"></div>
-                        <div class="drone-property"></div>
-                        <div class="drone-property"></div>
+                <div class="drone-about basis-[47%] relative">
+                    <div class="drone-name text-[34px] leading-8 mb-5">Дрон опрыскиватель AGR A22</div>
+                    <div class="drone-articul text-lg leading-4 mb-10">Артикуль: 12358</div>
+                    <div class="drone-propertys flex flex-wrap gap-5 mb-16">
+                        <div class="drone-property flex items-end basis-[45%]">
+                            <img class="mr-[16px]" src="img/product/property-1.png" alt="property">
+                            <p class="text-lg leading-4">Бак для распыления 22 л</p>
+                        </div>
+                        <div class="drone-property flex items-end basis-[45%]">
+                            <img class="mr-[16px]" src="img/product/property-2.png" alt="property">
+                            <p class="text-lg leading-4">Ширина захвата 5-8 м</p>
+                        </div>
+                        <div class="drone-property flex items-end basis-[45%]">
+                            <img class="mr-5" src="img/product/property-3.png" alt="property">
+                            <p class="text-lg leading-4">Высокоточное позиционирование</p>
+                        </div>
+                        <div class="drone-property flex items-end basis-[45%]">
+                            <img class="mr-4" src="img/product/property-4.png" alt="property">
+                            <p class="text-lg leading-4">Датчик высоты и обхода препятствий</p>
+                        </div>
+                        <div class="drone-property flex items-end basis-[45%]">
+                            <img class="mr-[18px]" src="img/product/property-5.png" alt="property">
+                            <p class="text-lg leading-4">Воднепроницаемость</p>
+                        </div>
+                        <div class="drone-property flex items-end basis-[45%]">
+                            <img class="mr-2" src="img/product/property-6.png" alt="property">
+                            <p class="text-lg leading-4">Скорость полета 10 м/с</p>
+                        </div>
                     </div>
                     <div class="">Все характеристики</div>
-                    <div class="line"></div>
-                    <div class="counter">
-                        <div class="counter-price"></div>
-                        <div class="counter-count"></div>
+                    <div class="line absolute w-[105px] bg-bgline h-[1px] mt-2"></div>
+                    <div class="counter flex items-center mt-10 mb-12">
+                        <div class="text-[30px] leading-[30px] mr-[6px]">$</div>
+                        <div id="counter-price_one" class="text-[30px] leading-[30px] mr-10">$</div>
+                        <div
+                            class="counter-count border flex border-borderdrone gap-4 px-3 py-[2px] text-[34px] leading-[26px]">
+                            <button id="minus">-</button>
+                            <div class="count text-2xl leading-6">1</div>
+                            <button id="plus">+</button>
+                        </div>
                     </div>
-                    <div class="drone-buttons">
-                        <div class="add-btn"></div>
-                        <div class="buy-btn"></div>
+                    <div class="drone-buttons flex gap-5">
+                        <div
+                            class="add-btn border border-lightgreen bg-lightgreen text-white text-[28px] leading-7 px-8 py-4 w-fit hover:bg-black hover:text-lightgreen cursor-pointer transition-all">
+                            Добавить в корзину</div>
+                        <div
+                            class="buy-btn border border-lightgreen bg-none text-white text-[28px] leading-7 px-8 py-4 w-fit hover:bg-black hover:text-lightgreen cursor-pointer transition-all">
+                            Купить в 1 клик</div>
                     </div>
                 </div>
             </div>
@@ -491,12 +519,6 @@
 
 
 
-    <script>
-        function droneBox(smallImg) {
-            let fullImg = document.getElementById('lg-img');
-            fullImg.src = smallImg.src;
-        }
-    </script>
 
 
 
@@ -509,6 +531,7 @@
 
     <!-- JS file -->
     <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
 
 
 </body>
