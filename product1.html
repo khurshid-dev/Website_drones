@@ -96,8 +96,8 @@
 
     <div class="dron-section mt-5 mb-24">
         <div class="container">
-            <div class="drone-sec-box flex max-w-full">
-                <div class="drone-img flex flex-col basis-[57%] gap-5 mr-4">
+            <div class="drone-sec-box flex lg:flex-wrap max-w-full">
+                <div class="drone-img flex flex-col basis-[57%] lg:basis-[75%] gap-5 mr-4 lg:mx-auto lg:mb-[72px]">
                     <div class="drone-big-img">
                         <img class="w-[95%] border-solid border-[0.5px] hover:rounded-xl transition-all border-borderdrone hover:border-lightgreen px-1 py-1 inline-block cursor-pointer hover:bg-black"
                             src="img/product/product-one/agr-a22-one.png" alt="product-one" id="lg-img"
@@ -112,7 +112,7 @@
                             src="img/product/product-one/agr-a22-three.png" alt="product-one" onclick="droneBox(this)">
                     </div>
                 </div>
-                <div class="drone-about basis-[47%] relative">
+                <div class="drone-about basis-[47%] lg:basis-[75%] lg:ml-[12%] relative">
                     <div class="drone-name text-[34px] leading-8 mb-5">Дрон опрыскиватель AGR A22</div>
                     <div class="drone-articul text-lg leading-4 mb-10">Артикуль: 12358</div>
                     <div class="drone-propertys flex flex-wrap gap-5 mb-16">
@@ -155,10 +155,10 @@
                     </div>
                     <div class="drone-buttons flex gap-5">
                         <div
-                            class="add-btn border border-lightgreen bg-lightgreen text-white text-[28px] leading-7 px-8 py-4 w-fit hover:bg-black hover:text-lightgreen cursor-pointer transition-all">
+                            class="add-btn border border-lightgreen bg-lightgreen text-white text-[28px] leading-7 px-8 xl:px-4 py-4 xl:py-3 w-fit hover:bg-black hover:text-lightgreen cursor-pointer transition-all">
                             Добавить в корзину</div>
                         <div
-                            class="buy-btn border border-lightgreen bg-none text-white text-[28px] leading-7 px-8 py-4 w-fit hover:bg-black hover:text-lightgreen cursor-pointer transition-all">
+                            class="buy-btn border border-lightgreen bg-none text-white text-[28px] leading-7 px-8 xl:px-4 py-4 xl:py-3 w-fit hover:bg-black hover:text-lightgreen cursor-pointer transition-all">
                             Купить в 1 клик</div>
                     </div>
                 </div>
@@ -169,14 +169,10 @@
 
 
 
-    <section class="advantage mt-8 sm:mt-0">
+    <section class="drone-advantage mt-8 sm:mt-0">
         <div class="container">
-            <div class="primary-title">
-                <h1>Почему нам дверяют?</h1>
-                <h4>Наши приемущества </h4>
-            </div>
 
-            <div class="swiper droneAdvSwiper">
+            <div class="swiper advantageSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div
@@ -270,58 +266,51 @@
                 <div class="swiper-pagination"></div>
             </div>
 
-            <div class="droneAdv-items flex flex-wrap ss:hidden">
+            <div class="droneAdv-items flex flex-wrap gap-5 lg:ml-[12%] md:hidden">
                 <div
-                    class="droneAdv-item h-auto w-[30%] overflow-hidden md:w-[44%] text-white px-7 py-14 md:py-10 sm:py-4  bg-bgflex ml-5 mb-5 rounded-lg cursor-pointer transition-[0.5s] relative">
+                    class="droneAdv-item h-auto basis-[23%] lg:basis-[40%] overflow-hidden md:w-[44%] text-white pl-5 pr-8 pt-[23px] pb-8  bg-bgflex rounded-lg cursor-pointer transition-[0.5s] relative">
                     <div class="content z-10 relative">
-                        <div class="flex items-center mb-6 cursor-pointer">
-                            <img src="img/main/f-icon1.png" alt="">
-                            <h5 class="ml-2 text-[22px] md:text-xl leading-5">Квалифицированные сотрудники</h5>
+                        <div class="flex items-center mb-1 cursor-pointer">
+                            <img src="img/product/adv-1.png" alt="">
+                            <h5 class="ml-2 text-[22px] md:text-xl leading-5">Бесплатная доставка</h5>
                         </div>
-                        <p class="text-base text-textflex leading-8">Все наши сотрудники имеют многолетний опыт работы в
-                            сфере беспилотной авиации.
-                            Нами было
-                            реализовано множество проектов различной тематики и самой различной сложности.</p>
+                        <p class="text-base text-textflex leading-8 ml-11">Купить кважракоптер - получить бесплатную
+                            доставку
+                        </p>
                     </div>
                     <b style="top: 175.3px; left: 175.4px;" class="adv-style"></b>
                 </div>
                 <div
-                    class="droneAdv-item h-auto w-[30%] overflow-hidden md:w-[44%] text-white px-7 py-14 md:py-10 sm:py-4  bg-bgflex ml-5 mb-5 rounded-lg cursor-pointer transition-[0.5s] relative">
+                    class="droneAdv-item h-auto basis-[23%] lg:basis-[40%] overflow-hidden md:w-[44%] text-white pl-5 pr-8 pt-[23px] pb-8  bg-bgflex rounded-lg cursor-pointer transition-[0.5s] relative">
                     <div class="content z-10 relative">
-                        <div class="flex items-center mb-6 cursor-pointer">
-                            <img src="img/main/f-icon2.png" alt="">
-                            <h5 class="ml-2 text-[22px] md:text-xl leading-5">Высокотехнологичное оборудование </h5>
+                        <div class="flex items-center mb-1 cursor-pointer">
+                            <img src="img/product/adv-2.png" alt="">
+                            <h5 class="ml-2 text-[22px] md:text-xl leading-5">Пробный первый полет</h5>
                         </div>
-                        <p class="text-base text-textflex leading-8">Наша компания использует современное оборудование,
-                            которое обеспечивает высокое качество в
-                            выполнении поставленных задач.</p>
+                        <p class="text-base text-textflex leading-8 ml-11">Краткое обучение и техника безопасности</p>
                     </div>
                     <b style="top: 175.3px; left: 175.4px;" class="adv-style"></b>
                 </div>
                 <div
-                    class="droneAdv-item h-auto w-[30%] overflow-hidden md:w-[44%] text-white px-7 py-14 md:py-10 sm:py-4  bg-bgflex ml-5 mb-5 rounded-lg cursor-pointer transition-[0.5s] relative">
+                    class="droneAdv-item h-auto basis-[23%] lg:basis-[40%] overflow-hidden md:w-[44%] text-white pl-5 pr-8 pt-[23px] pb-8  bg-bgflex rounded-lg cursor-pointer transition-[0.5s] relative">
                     <div class="content z-10 relative">
-                        <div class="flex items-center mb-6 cursor-pointer">
-                            <img src="img/main/f-icon3.png" alt="">
-                            <h5 class="ml-2 text-[22px] md:text-xl leading-5">Экономия</h5>
+                        <div class="flex items-center mb-1 cursor-pointer">
+                            <img src="img/product/adv-3.png" alt="">
+                            <h5 class="ml-2 text-[22px] md:text-xl leading-5">Гарантия лучшей цены</h5>
                         </div>
-                        <p class="text-base text-textflex leading-8">Использование беспилотных технологий экономит вам
-                            много
-                            времени и денег. За счет отсутствия
-                            технологической колеи сохраняется до 6% урожая. Снижение расхода препаратов до 30%</p>
+                        <p class="text-base text-textflex leading-8 ml-11">Лучшая цена от официального производителя</p>
                     </div>
                     <b style="top: 175.3px; left: 175.4px;" class="adv-style"></b>
                 </div>
                 <div
-                    class="droneAdv-item h-auto w-[30%] overflow-hidden md:w-[44%] text-white px-7 py-14 md:py-10 sm:py-4  bg-bgflex ml-5 mb-5 rounded-lg cursor-pointer transition-[0.5s] relative">
+                    class="droneAdv-item h-auto basis-[23%] lg:basis-[40%] overflow-hidden md:w-[44%] text-white pl-5 pr-8 pt-[23px] pb-8  bg-bgflex rounded-lg cursor-pointer transition-[0.5s] relative">
                     <div class="content z-10 relative">
-                        <div class="flex items-center mb-6 cursor-pointer">
-                            <img src="img/main/f-icon4.png" alt="">
-                            <h5 class="ml-2 text-[22px] md:text-xl leading-5">Оперативность</h5>
+                        <div class="flex items-center mb-1 cursor-pointer">
+                            <img src="img/product/adv-4.png" alt="">
+                            <h5 class="ml-2 text-[22px] md:text-xl leading-5">Официальная гарантия</h5>
                         </div>
-                        <p class="text-base text-textflex leading-8">За рабочую смену наши специалисты способны защитить
-                            более 1000 гектар ваших полей, кустарников и
-                            деревьев.</p>
+                        <p class="text-base text-textflex leading-8 ml-11">На всю продукцию представленную в магазине
+                        </p>
                     </div>
                     <b style="top: 175.3px; left: 175.4px;" class="adv-style"></b>
                 </div>
@@ -524,6 +513,7 @@
 
     <!-- Link Styles -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product.css">
 
 
     <!-- Swiper JS -->

@@ -805,16 +805,12 @@ html {
   margin-bottom: 6rem;
 }
 
-.mr-10 {
-  margin-right: 2.5rem;
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .mr-\[16px\] {
   margin-right: 16px;
-}
-
-.mr-4 {
-  margin-right: 1rem;
 }
 
 .mr-\[18px\] {
@@ -831,6 +827,18 @@ html {
 
 .mr-\[6px\] {
   margin-right: 6px;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.ml-11 {
+  margin-left: 2.75rem;
 }
 
 .mb-11 {
@@ -851,10 +859,6 @@ html {
 
 .box-border {
   box-sizing: border-box;
-}
-
-.box-content {
-  box-sizing: content-box;
 }
 
 .block {
@@ -963,10 +967,6 @@ html {
   width: fit-content;
 }
 
-.w-auto {
-  width: auto;
-}
-
 .max-w-full {
   max-width: 100%;
 }
@@ -1067,8 +1067,8 @@ html {
   flex-basis: 60%;
 }
 
-.basis-\[48\%\] {
-  flex-basis: 48%;
+.basis-\[57\%\] {
+  flex-basis: 57%;
 }
 
 .basis-\[47\%\] {
@@ -1079,8 +1079,8 @@ html {
   flex-basis: 45%;
 }
 
-.basis-\[57\%\] {
-  flex-basis: 57%;
+.basis-\[23\%\] {
+  flex-basis: 23%;
 }
 
 .cursor-pointer {
@@ -1137,10 +1137,6 @@ html {
 
 .gap-5 {
   gap: 1.25rem;
-}
-
-.gap-7 {
-  gap: 1.75rem;
 }
 
 .gap-32 {
@@ -1352,11 +1348,6 @@ html {
   padding-bottom: 2px;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1365,6 +1356,11 @@ html {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .pt-7 {
@@ -1421,6 +1417,18 @@ html {
 
 .pb-7 {
   padding-bottom: 1.75rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pt-\[23px\] {
+  padding-top: 23px;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
 .pt-0 {
@@ -1679,6 +1687,16 @@ html {
     padding-bottom: 0.25rem;
   }
 
+  .xl\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .xl\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1700,12 +1718,25 @@ html {
 }
 
 @media (max-width: 992px) {
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .lg\:mr-0 {
     margin-right: 0px;
   }
 
   .lg\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .lg\:mb-\[72px\] {
+    margin-bottom: 72px;
+  }
+
+  .lg\:ml-\[12\%\] {
+    margin-left: 12%;
   }
 
   .lg\:block {
@@ -1728,8 +1759,20 @@ html {
     flex-basis: 100%;
   }
 
+  .lg\:basis-\[75\%\] {
+    flex-basis: 75%;
+  }
+
+  .lg\:basis-\[40\%\] {
+    flex-basis: 40%;
+  }
+
   .lg\:flex-col {
     flex-direction: column;
+  }
+
+  .lg\:flex-wrap {
+    flex-wrap: wrap;
   }
 
   .lg\:justify-center {
