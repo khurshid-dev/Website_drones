@@ -817,10 +817,6 @@ html {
   margin-right: 18px;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -899,6 +895,10 @@ html {
 
 .h-\[595px\] {
   height: 595px;
+}
+
+.h-\[60\%\] {
+  height: 60%;
 }
 
 .h-fit {
@@ -1932,6 +1932,18 @@ html {
     margin-top: 1.25rem;
   }
 
+  .md\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .md\:ml-\[8\%\] {
+    margin-left: 8%;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
   .md\:hidden {
     display: none;
   }
@@ -1954,6 +1966,10 @@ html {
 
   .md\:w-\[44\%\] {
     width: 44%;
+  }
+
+  .md\:w-\[17\%\] {
+    width: 17%;
   }
 
   .md\:max-w-\[338px\] {
@@ -1992,6 +2008,10 @@ html {
     flex-basis: 100%;
   }
 
+  .md\:basis-\[84\%\] {
+    flex-basis: 84%;
+  }
+
   .md\:flex-col {
     flex-direction: column;
   }
@@ -2000,8 +2020,16 @@ html {
     flex-wrap: wrap;
   }
 
+  .md\:items-center {
+    align-items: center;
+  }
+
   .md\:justify-center {
     justify-content: center;
+  }
+
+  .md\:gap-4 {
+    gap: 1rem;
   }
 
   .md\:px-\[30px\] {
@@ -2140,6 +2168,10 @@ html {
   .md\:leading-4 {
     line-height: 1rem;
   }
+
+  .md\:leading-5 {
+    line-height: 1.25rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -2225,12 +2257,20 @@ html {
     margin-top: 0.25rem;
   }
 
-  .ss\:mt-0 {
-    margin-top: 0px;
+  .ss\:ml-\[4\%\] {
+    margin-left: 4%;
+  }
+
+  .ss\:mb-12 {
+    margin-bottom: 3rem;
   }
 
   .ss\:mt-6 {
     margin-top: 1.5rem;
+  }
+
+  .ss\:mt-0 {
+    margin-top: 0px;
   }
 
   .ss\:mb-6 {
@@ -2257,6 +2297,10 @@ html {
     height: 106px;
   }
 
+  .ss\:h-\[70\%\] {
+    height: 70%;
+  }
+
   .ss\:w-28 {
     width: 7rem;
   }
@@ -2265,12 +2309,28 @@ html {
     width: 70%;
   }
 
+  .ss\:w-\[14\%\] {
+    width: 14%;
+  }
+
   .ss\:basis-\[48\%\] {
     flex-basis: 48%;
   }
 
   .ss\:basis-\[70\%\] {
     flex-basis: 70%;
+  }
+
+  .ss\:basis-\[90\%\] {
+    flex-basis: 90%;
+  }
+
+  .ss\:basis-\[73\%\] {
+    flex-basis: 73%;
+  }
+
+  .ss\:basis-\[75\%\] {
+    flex-basis: 75%;
   }
 
   .ss\:flex-col {
@@ -2357,12 +2417,26 @@ html {
     line-height: 1.25rem;
   }
 
+  .ss\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .ss\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
   .ss\:text-\[26px\] {
     font-size: 26px;
   }
 
   .ss\:leading-\[27px\] {
     line-height: 27px;
+  }
+
+  .ss\:leading-4 {
+    line-height: 1rem;
   }
 
   .ss\:leading-6 {
@@ -2483,6 +2557,10 @@ html {
     margin-bottom: 1.05rem;
   }
 
+  .sm\:ml-\[5\%\] {
+    margin-left: 5%;
+  }
+
   .sm\:h-\[30px\] {
     height: 30px;
   }
@@ -2497,6 +2575,10 @@ html {
 
   .sm\:w-\[78\%\] {
     width: 78%;
+  }
+
+  .sm\:w-\[13\%\] {
+    width: 13%;
   }
 
   .sm\:max-w-\[270px\] {
@@ -2527,8 +2609,20 @@ html {
     flex-basis: 48%;
   }
 
+  .sm\:basis-\[100\%\] {
+    flex-basis: 100%;
+  }
+
+  .sm\:basis-\[85\%\] {
+    flex-basis: 85%;
+  }
+
   .sm\:justify-around {
     justify-content: space-around;
+  }
+
+  .sm\:gap-3 {
+    gap: 0.75rem;
   }
 
   .sm\:py-\[3px\] {
@@ -2549,6 +2643,11 @@ html {
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .sm\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .sm\:pt-2 {
@@ -2630,6 +2729,11 @@ html {
 
   .sm\:text-\[26px\] {
     font-size: 26px;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .sm\:leading-4 {

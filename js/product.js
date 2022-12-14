@@ -13,7 +13,7 @@ const countMinus = document.getElementById('minus');
 let countPriceOne = document.getElementById('counter-price_one');
 
 
-let count = 0;
+let count = 1;
 countPriceOne.innerHTML = 15001.27;
 
 countPlus.addEventListener("click",()=>{
@@ -28,4 +28,14 @@ countMinus.addEventListener("click",()=>{
     if(countPriceOne.innerHTML === 0) {
         return 0;
     }
+});
+
+
+// advSwiper - for responsive
+
+var swiper = new Swiper(".droneAdvSwiper", {
+    pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+    },
 });
