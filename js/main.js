@@ -32,6 +32,7 @@ var swiper = new Swiper(".mySwiper", {
       mousewheel: true,
       keyboard: true,
 });
+
 //swiper News Section on media 768
 
 var swiper = new Swiper(".mySwiperTwo", {

@@ -39,3 +39,27 @@ var swiper = new Swiper(".droneAdvSwiper", {
         dynamicBullets: true,
     },
 });
+
+
+
+//Similar swiper
+
+var swiper = new Swiper(".myproductSwiper", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
+
+//Character (chracteristic) section 
+
+const characterItem = document.querySelectorAll('.character-item');
+
+characterItem.forEach((item) => {
+    item.addEventListener('click', () => {
+        item.classList.toggle('active')
+    })
+})
