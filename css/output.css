@@ -845,6 +845,10 @@ html {
   margin-left: 9%;
 }
 
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
 .mb-11 {
   margin-bottom: 2.75rem;
 }
@@ -859,10 +863,6 @@ html {
 
 .mt-14 {
   margin-top: 3.5rem;
-}
-
-.mt-\[10px\] {
-  margin-top: 10px;
 }
 
 .box-border {
@@ -1382,11 +1382,6 @@ html {
   padding-bottom: 1rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1465,6 +1460,14 @@ html {
   padding-bottom: 2rem;
 }
 
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .pt-0 {
   padding-top: 0px;
 }
@@ -1483,14 +1486,6 @@ html {
 
 .pb-28 {
   padding-bottom: 7rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
 }
 
 .text-left {
@@ -1990,6 +1985,18 @@ html {
     margin-left: 8%;
   }
 
+  .md\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .md\:ml-\[2\%\] {
+    margin-left: 2%;
+  }
+
+  .md\:mt-4 {
+    margin-top: 1rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -2020,6 +2027,10 @@ html {
 
   .md\:w-\[17\%\] {
     width: 17%;
+  }
+
+  .md\:w-\[95\%\] {
+    width: 95%;
   }
 
   .md\:max-w-\[338px\] {
@@ -2060,6 +2071,10 @@ html {
 
   .md\:basis-\[84\%\] {
     flex-basis: 84%;
+  }
+
+  .md\:basis-\[95\%\] {
+    flex-basis: 95%;
   }
 
   .md\:flex-col {
@@ -2189,6 +2204,14 @@ html {
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:text-\[34px\] {
+    font-size: 34px;
+  }
+
+  .md\:text-\[26px\] {
+    font-size: 26px;
   }
 
   .md\:leading-8 {
@@ -2331,12 +2354,20 @@ html {
     margin-bottom: 2.5rem;
   }
 
+  .ss\:ml-\[13\%\] {
+    margin-left: 13%;
+  }
+
   .ss\:mt-0 {
     margin-top: 0px;
   }
 
   .ss\:mb-1 {
     margin-bottom: 0.25rem;
+  }
+
+  .ss\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .ss\:block {
@@ -2369,6 +2400,10 @@ html {
 
   .ss\:w-\[14\%\] {
     width: 14%;
+  }
+
+  .ss\:max-w-\[85\%\] {
+    max-width: 85%;
   }
 
   .ss\:basis-\[48\%\] {
@@ -2416,6 +2451,11 @@ html {
   .ss\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .ss\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .ss\:px-4 {
@@ -2489,12 +2529,20 @@ html {
     font-size: 26px;
   }
 
+  .ss\:text-\[1\.75rem\] {
+    font-size: 1.75rem;
+  }
+
   .ss\:leading-\[27px\] {
     line-height: 27px;
   }
 
   .ss\:leading-4 {
     line-height: 1rem;
+  }
+
+  .ss\:leading-3 {
+    line-height: .75rem;
   }
 
   .ss\:leading-6 {
@@ -2639,6 +2687,10 @@ html {
     width: 13%;
   }
 
+  .sm\:w-\[80\%\] {
+    width: 80%;
+  }
+
   .sm\:max-w-\[270px\] {
     max-width: 270px;
   }
@@ -2706,6 +2758,11 @@ html {
   .sm\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+  }
+
+  .sm\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .sm\:pt-2 {
