@@ -76,6 +76,12 @@ iframe {
 }
 
 @media only screen and (max-width: 768px) {
+    .bg-contact::before {
+        background-size: 63px 253px;
+        left: 12px;
+        top: 73px;
+    }
+
     .contact-map {
         flex-basis: 100%;
         height: 500px;
@@ -97,6 +103,35 @@ iframe {
     }
 }
 
-@media only screen and (max-width: 500px) {}
+@media only screen and (max-width: 500px) {
+    .bg-contact::before {
+        background-image: none;
+        display: none;
+    }
 
-@media only screen and (max-width: 420px) {}
+    .contact-map {
+        height: 394px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .contact-dron svg {
+        right: 24%;
+        bottom: 7px;
+        width: 355px;
+        height: 55px;
+    }
+
+    .contact-dron img {
+        left: 81%;
+        bottom: 56px;
+        width: 66px;
+        height: 66px;
+    }
+
+    .contact-map {
+        flex-basis: 100%;
+        height: 348px;
+        margin-top: 40px;
+    }
+}

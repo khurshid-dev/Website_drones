@@ -88,6 +88,58 @@
 
 
 
+    <div class="korzina-section hidden fixed bg-bgflex w-full h-full bg-korzinabg top-0 left-0 z-20">
+        <div class="korzina-container min-h-fit flex justify-center px-3 py-8 mt-[10%] md:mt-[16%]">
+            <div class="korzina-content bg-bgflex rounded-lg w-fit max-h-fit relative py-[2%] px-[3%]">
+                <div class="main-korzina flex justify-between items-center">
+                    <h2 class="text-5xl md:text-[32px] leading-[57px]">Корзина</h2>
+                    <div class="cursor-pointer md:w-[30px]"><img src="img/main/m-close.png" alt="close-img" id="closeModal">
+                    </div>
+                </div>
+                <div
+                    class="product-korzina flex justify-between items-center ss:flex-col ss:justify-start ss:items-start mb-8 ss:mb-4 relative">
+                    <div class="w-[25%] ss:w-[60%] h-[25%] mr-[4%] ss:mx-auto"><img src="img/main/product-d1.png" alt=""
+                            class="product-drone w-full h-full"></div>
+                    <div class="product-about mr-[6%] ss:ml-[6%] ss:mr-0">
+                        <h6 class="text-2xl leading-6 mb-5">Агродрон AGR A22</h6>
+                        <p class="text-lg leading-4 font-light">Артикуль: AGR</p>
+                    </div>
+                    <div class="counter flex items-center ss:ml-[6%] mt-10 ss:mt-6 mb-12 ss:mb-8">
+                        <div
+                            class="counter-count border flex border-borderdrone gap-4 px-3 py-[2px] text-[34px] leading-[26px]  mr-7">
+                            <button id="minus">-</button>
+                            <div class="count text-2xl ss:text-xl leading-6"></div>
+                            <button id="plus">+</button>
+                        </div>
+                        <div class="text-[30px] md:text-2xl leading-[30px] mr-[6px]">$</div>
+                        <div id="counter-price_one" class="text-[30px] md:text-2xl leading-[30px] mr-[10%]">
+                        </div>
+                        <div class="delete cursor-pointer w-[46px]"><img src="img/main/korzina-icon.png" alt="">
+                        </div>
+                    </div>
+                    <div class="line absolute bg-bgline min-w-[100%] h-[1px] top-36 ss:top-72 sm:top-[97%]"></div>
+                </div>
+                <div
+                    class="footer-korzina flex justify-between items-center ss:flex-col ss:justify-start ss:items-start ss:ml-[6%] mt-14 ss:mt-0 mb-6">
+                    <div class="flex flex-col justify-center relative">
+                        <p class="text-lg leading-5">Продолжить покупки</p>
+                        <div class="absolute bg-lightgreen w-[122px] h-[1px] top-7 left-[-2px]"></div>
+                    </div>
+                    <div class="all-price flex items-center text-2xl leading-6 ss:mt-6"> Всего:
+                        <div class="text-[30px] ss:text-2xl leading-[30px] ml-4 mr-[6px]">$</div>
+                        <div id="counter-price_all" class="text-[30px] ss:text-2xl leading-[30px]"></div>
+                    </div>
+                    <div><button href="catalog.html"
+                            class="p-shopping block w-full mx-auto cursor-pointer border px-6 py-4 md:px-4 md:py-3 ss:mt-4 text-2xl md:text-xl leading-4 ss:leading-4 text-lightgreen border-lightgreen transition-[0.8s] hover:bg-lightgreen hover:text-white">Оформить
+                            заказ</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <section class="news_post">
         <div class="container">
             <h1 class="post-title">The FOOD TECH 500</h1>

@@ -9,6 +9,53 @@ iconMenu.addEventListener('click', () => {
 })
 
 
+// Modal Window section
+
+const korzina = document.querySelector('.korzina-section');
+const product = document.querySelector('.product-korzina');
+const shoppingIcon = document.querySelector('.icon_shoppingcart');
+const closeModal = document.getElementById('closeModal');
+
+
+shoppingIcon.addEventListener('click', () => {
+    korzina.classList.toggle('block');
+    korzina.classList.toggle('hidden');
+});
+closeModal.addEventListener('click', () => {
+    korzina.classList.toggle('block');
+    korzina.classList.toggle('hidden');
+});
+
+
+// Counter
+const countDisplay = document.querySelector('.count');
+const countPlus = document.getElementById('plus');
+const countMinus = document.getElementById('minus');
+let countPriceOne = document.getElementById('counter-price_one');
+let countPriceAll = document.getElementById('counter-price_all');
+
+
+let count = 1;
+countDisplay.innerHTML = count;
+countPriceOne.innerHTML = 15001.27;
+countPriceAll.innerHTML = countPriceOne.innerHTML;
+
+countPlus.addEventListener("click",()=>{
+    count++;
+    countDisplay.innerHTML = count;
+    countPriceOne.innerHTML = 15001.27 * count;
+    countPriceAll.innerHTML = countPriceOne.innerHTML;
+});
+countMinus.addEventListener("click",()=>{
+    count--;
+    countDisplay.innerHTML = count;
+    countPriceOne.innerHTML = 15001.27 * count;
+
+    countPriceAll.innerHTML = countPriceOne.innerHTML;
+});
+
+
+
 // Learn more section
 const parenMore = document.querySelector('.info');
 const more = document.querySelector('.more');
