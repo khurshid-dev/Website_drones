@@ -7,26 +7,27 @@ function droneBox(smallImg) {
 
 
 // Counter
-const countDisplay = document.querySelector('.count');
-const countPlus = document.getElementById('plus');
-const countMinus = document.getElementById('minus');
-let countPriceOne = document.getElementById('counter-price_one');
+const countsDisplay = document.querySelector('.counts');
+const countsPlus = document.getElementById('pluss');
+const countsMinus = document.getElementById('minuss');
+let countsPriceOne = document.getElementById('counter-price_ones');
 
 
-let count = 1;
-countPriceOne.innerHTML = 15001.27;
+let counts = 1;
+countsDisplay.innerHTML = counts;
+countsPriceOne.innerHTML = 15001.27;
 
-countPlus.addEventListener("click",()=>{
-    count++;
-    countDisplay.innerHTML = count;
-    countPriceOne.innerHTML = 15001.27 * count;
+countsPlus.addEventListener("click",()=>{
+    counts++;
+    countsDisplay.innerHTML = counts;
+    countsPriceOne.innerHTML = 15001.27 * counts;
 });
-countMinus.addEventListener("click",()=>{
-    count--;
-    countDisplay.innerHTML = count;
-    countPriceOne.innerHTML = 15001.27 * count;
-    if(countPriceOne.innerHTML === 0) {
-        return 0;
+countsMinus.addEventListener("click",()=>{
+    counts--;
+    countsDisplay.innerHTML = counts;
+    countsPriceOne.innerHTML = 15001.27 * counts;
+    if(counts === -1) {
+        return null;
     }
 });
 

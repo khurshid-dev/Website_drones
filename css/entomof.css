@@ -376,17 +376,20 @@ svg.active .svg-elem-1 {
     }
 
     .trixogram-item {
-        padding: 270px 74px 30px 74px;
-        margin-right: auto;
+        padding: 30% 8% 5%;
     }
 
     .trixo-img {
-        width: 100%;
         position: absolute;
-        bottom: 476px;
+        bottom: 82%;
         top: inherit;
         display: flex;
         justify-content: center;
+    }
+
+    .trixo-img img {
+        width: 65%;
+        height: auto;
     }
 
     .trixo-bg::before {
@@ -398,18 +401,21 @@ svg.active .svg-elem-1 {
     }
 
     .zlato-item {
-        padding: 270px 74px 30px 74px;
-        margin-right: auto;
+        padding: 30% 8% 5%;
     }
 
     .zlato-img {
-        width: 100%;
         position: absolute;
-        bottom: 476px;
+        bottom: 80%;
         right: 0;
         top: inherit;
         display: flex;
         justify-content: center;
+    }
+
+    .zlato-img img {
+        width: 60%;
+        height: auto;
     }
 
     .gabro-bg::before {
@@ -430,15 +436,6 @@ svg.active .svg-elem-1 {
 }
 
 
-@media only screen and (max-width: 600px) {
-    .trixo-img {
-        bottom: 594px;
-    }
-
-    .zlato-img {
-        bottom: 594px;
-    }
-}
 
 
 
@@ -466,47 +463,25 @@ svg.active .svg-elem-1 {
     }
 
     .h-ends.active button.icon {
-        height: 42px;
+        height: 21px;
         margin-left: 17px;
-    }
-}
-
-
-@media only screen and (max-width: 480px) {
-    .trixogram-box {
-        margin-top: 128px;
     }
 
     .trixo-img {
-        bottom: 551px;
+        bottom: 86%;
     }
 
     .trixo-img img {
-        width: 320px;
-        height: 300px;
-    }
-
-    .trixogram-item {
-        padding: 230px 44px 30px 44px;
-    }
-
-    .zlato-box {
-        margin-top: 128px;
+        width: 75%;
+        height: auto;
     }
 
     .zlato-img {
-        bottom: 551px;
+        bottom: 86%;
     }
 
-    .zlato-img img {
-        width: 320px;
-        height: 300px;
-    }
-
-    .zlato-item {
-        padding: 230px 44px 30px 44px;
-    }
 }
+
 
 
 
@@ -555,40 +530,29 @@ svg.active .svg-elem-1 {
     }
 
     .trixogram-item {
-        padding: 200px 14px 20px 14px;
-        margin-right: auto;
+        padding: 44% 4% 3%;
     }
 
     .trixo-img {
-        bottom: 514px;
+        bottom: 84%;
     }
 
     .trixo-img img {
-        width: 300px;
-        height: 291px;
+        width: 85%;
+        height: 85%;
     }
 
     .zlato-item {
-        padding: 200px 14px 20px 14px;
-        margin-right: auto;
+        padding: 44% 4% 3%;
+
     }
 
     .zlato-img {
-        bottom: 592px;
+        bottom: 85%;
     }
 
     .zlato-img img {
-        width: 300px;
-        height: 291px;
-    }
-}
-
-@media only screen and (max-width: 380px) {
-    .trixo-img {
-        bottom: 531px;
-    }
-
-    .zlato-img {
-        bottom: 532px;
+        width: 75%;
+        height: auto;
     }
 }
