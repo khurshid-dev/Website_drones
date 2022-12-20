@@ -28,7 +28,7 @@ module.exports = {
             bgline: '#464646',
             submenubg: 'hsl(0deg 0% 4% / 90%);',
             borderdrone: '#464646',
-            korzinabg: 'rgba(24, 24, 24, 0.7)',
+            korzinabg: '#000000b3',
         },
     },
     },
